@@ -26,33 +26,6 @@ How many challenges / stages will your team over come you on your way to settlin
 That depends on you and the choices your team make,
 
 
-
-## The star of the game is our Sun and start of your adventure is our beautiful blue origin, Earth. 
-Here are some additional details that could be included in the game if the “Dungeon master”/“Space wizard” chooses:
-
-The players must choose to play as members of different factions, such as the government, a private corporation, a national military or a religious group(s)...etc... 
-
-The game could include different types of challenges, such as political intrigue, economic hardship, and environmental disaster(s).
-The game can have a variety of different endings, depending on the choices that the players make, such as…
-
-> stopping at the moon, 
-> 
-> a one way trip Mars,
-> 
-> a return trip to Mars, 
-> 
-> disease outbreak on mars,
-> 
-> a trip to the edge of the solar system, 
-> 
-> meeting aliens, 
-> 
-> or contracting alien disease. 
-
-This is just a basic outline, of course, the game structure will vary based on how you decide to use the dice and AI. During the game the “dungeon master will consult with BARD, ChatGTP, YOU, and make up general excuses to use the dice. 
-
-The specific details of the game would depend on the interests of the players, the decisions they make, the creativity of the game designer and the role of the dice.
-
 # Overview
 This game is a combination of a DnD style choose your adventure role playing adventure that travels across a Settlers of Mars board.
 
@@ -63,7 +36,6 @@ This game is a combination of a DnD style choose your adventure role playing adv
 > 3. Evolving Gameplay: The game is played in a series of sessions, each of which represents a day in the life of the colonists and the corporations they represent. The players will make decisions about how to spend their time, such as exploring the planet, building new structures, or conducting scientific research. They will also have to deal with unexpected challenges, such as natural disasters, hostile aliens, or even the occasional mutiny.
 
 > 4. Unknown Conclusion: The game ends when the colonists have successfully established a permanent settlement on the moon and Mars. The players will then have to decide what kind of society they want to build on these two worlds. Will they be a peaceful utopia or a militaristic dictatorship? The choice is up to you!
-
 
 
 # Potential Characters to choose from
@@ -92,6 +64,33 @@ Agriculture: Farmers and chefs will be essential for growing food for the coloni
 
 Leadership: Sociological leaders will be essential for keeping the colonists organized and motivated. They will need to be able to make difficult decisions and deal with unexpected challenges. Does this come from Space force or some other higher power (or religion).
 Others: The goal of the game is your own personal character and team development so feel free to add others.
+
+## The star of the game is our Sun and start of your adventure is our beautiful blue origin, Earth. 
+Here are some additional details that could be included in the game if the “Dungeon master”/“Space wizard” chooses:
+
+The players must choose to play as members of different factions, such as the government, a private corporation, a national military or a religious group(s)...etc... 
+
+The game could include different types of challenges, such as political intrigue, economic hardship, and environmental disaster(s).
+The game can have a variety of different endings, depending on the choices that the players make, such as…
+
+> stopping at the moon, 
+> 
+> a one way trip Mars,
+> 
+> a return trip to Mars, 
+> 
+> disease outbreak on mars,
+> 
+> a trip to the edge of the solar system, 
+> 
+> meeting aliens, 
+> 
+> or contracting alien disease. 
+
+This is just a basic outline, of course, the game structure will vary based on how you decide to use the dice and AI. During the game the “dungeon master will consult with BARD, ChatGTP, YOU, and make up general excuses to use the dice. 
+
+The specific details of the game would depend on the interests of the players, the decisions they make, the creativity of the game designer and the role of the dice.
+
 
 ## Table of  statistical strengths
 Table: Make a table of numerical values (1-10) that could be related to the characters' stereotypes and their skills/strengths. 
