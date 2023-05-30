@@ -8,9 +8,13 @@ How will your team use these to further your journey through time and the space 
 
 ## To Start the game first give each player a role and a dice to roll if needed…
 >Player 1: the “Dungeon master”/“Space wizard” uses a LLM to generate a challenge for the party to overcome. 
->Player 2: uses AI art generators to make an image that represents each turn,
+>
+>Player 2: uses AI art generators to make an image that represents each turn.
+>
 >Player 3: uses LLM to write a summary of how they could over come the challange.
+>
 >Player 4: uses LLM to generate some computer code that could help at that stage of the narrative.
+>
 >Player 5: the team leader then collates these into a ‘ game turn ‘ summary slide on a white board.
 
 Perhaps you have a mechanical engineer who wants to make some 3D models .stl, then go for it!
