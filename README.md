@@ -1,12 +1,10 @@
 ![Poster showing the first test run of Settlers of Mars]([example-image.png](https://github.com/dr-richard-barker/Settlers-of-mars-3D-models-/edit/main/README.md#:~:text=Dome.STL-,EmbeddedImage,-.jpeg))
 
-# Settlers-of-mars-3D-models-
-3D models for settlers of Mars board game can be printed to help prepare your guide for this educational adventure.
-But this is a role play game so nothing is essential except your imagination, playful spirit and a desire to help your team settle mars and/or the moon.
-
-# Settling Mars 
-
-Goal: This is a role-playing game where you develop and learn about your own personal character. As you adventure across the board, a series of developments occur on your journey through the Settlers of Mars board game. Your personal character and team embark on a quest to Mars, during which you will encounter a series of environments that may contain challenges or rewards. How will your team use these to further your journey through time and the space made available by earlier settlers on Mars?
+# Settlers of Mars 
+Goal: This is a role-playing game where you develop and learn about your own personal character. 
+As you adventure across the board, a series of developments occur on your journey through the Settlers of Mars board game. 
+Your personal character and team embark on a quest to Mars, during which you will encounter a series of environments that may contain challenges or rewards. 
+How will your team use these to further your journey through time and the space made available by earlier settlers on Mars?
 
 ## To Start the game first give each player a role and a dice to roll if needed…
 Player 1: the “Dungeon master”/“Space wizard” uses a LLM to generate a challenge for the party to overcome. 
@@ -21,7 +19,9 @@ Perhaps you an electrical engineer who wants to design some circuits? Then go fo
 How many challenges / stages will your team over come you on your way to settling mars?
 That depends on you and the choices your team make,
 
-# The star of the game is our Sun and start of your adventure is our beautiful blue origin, Earth. 
+
+
+## The star of the game is our Sun and start of your adventure is our beautiful blue origin, Earth. 
 The choices you make determine how far we go.
 
 Here are some additional details that could be included in the game if the “Dungeon master”/“Space wizard” chooses:
@@ -59,7 +59,7 @@ Scientist, captain, engineer, farmer, doctor
 The teams and their skills
 Insert AI team pic 
 
-# Potential Characters
+## Potential Characters
 Intelligence	
 Construction	
 Medicine	
@@ -67,16 +67,20 @@ Agriculture
 Leadership
 Scientist	
 
-# Descriptions of the characteristics your team will find useful for colonizing Mars:
+## Descriptions of the characteristics your team will find useful for colonizing Mars:
 
 Science: Scientists are essential for any colonization effort. They will be responsible for conducting research on the planet, developing new technologies, and finding ways to overcome the challenges of living in space.
+
 Engineering: Engineers are also essential for any colonization effort. They will be responsible for designing and building the structures that will be needed to support the colonists, such as habitats, power plants, and transportation systems.
+
 Medicine: Doctors and nurses will be essential for providing medical care to the colonists. They will also be responsible for developing new ways to prevent and treat diseases in space.
+
 Agriculture: Farmers and chefs will be essential for growing food for the colonists. They will need to find ways to grow crops in the harsh Martian environment.
+
 Leadership: Sociological leaders will be essential for keeping the colonists organized and motivated. They will need to be able to make difficult decisions and deal with unexpected challenges. Does this come from Space force or some other higher power (or religion).
 Others: The goal of the game is your own personal character and team development so feel free to add others.
 
-# Table of  statistical strengths
+## Table of  statistical strengths
 Table: Make a table of numerical values (1-10) that could be related to the characters' stereotypes and their skills/strengths. 
 These can be used to weight dice rolls throughout the game.
 The total sum of each character's characteristics score is 35. 
@@ -87,6 +91,9 @@ The specific characteristics and numerical values that are important for each ch
 Game players can adjust these values but they need to justify how or why -> their narrative has to convince their fellow game players.
 
 # Games components - use the settlers of Mars board for narrative development 
+## Settlers-of-mars-3D-models-
+3D models for settlers of Mars board game are included in the repo' and can be printed to help prepare your guide for this educational adventure.
+
 Settlements: Settlements could represent the different colonies that are being established on Mars. They would need to be built in strategic locations, such as near resources or transportation routes.
 
 Domed Cities: Cities could represent the larger, more developed colonies on Mars. They would need to be built on top of settlements and would provide more resources and benefits to the colonists.
@@ -99,15 +106,18 @@ Random Robber: The random robber represent the dangers that the colonists face o
 
 2 dice: The dice could be used to determine the number of resources that are available to the colonists each turn. They could also be used to determine the outcome of events, such as natural disasters.
 
-Extra components colonizers can select for this Settlers of Mars role-play game:
+# Extra components colonizers can select for this Settlers of Mars role-play game:
 
 Spaceships: Spaceships could be used to transport the colonists to Mars and to bring them back to Earth or it’s moon. 
+
 Rovers: They could also be used to explore the Martian surface and to transport resources between different colonies.
+
 Robots: Robots could be used to help the colonists with tasks, such as building structures or mining resources. They could also be used to defend the colonies from attack.
+
 Alien defence system: Aliens could represent the other life forms that exist on Mars. They could be friendly or hostile, and they could pose a threat to the colonists.
 
 
-The stages / challenges to overcome as a team: 2xD6 are roll at each stage to help determine the narrative. Each player takes it in turn.
+# The stages / challenges to overcome as a team: 2xD6 are roll at each stage to help determine the narrative. Each player takes it in turn.
 
 Resource gathering on Earth: The colonists build a road across a “Catan” style Earth collecting resources needed to build a space vehicle.
 
@@ -127,7 +137,7 @@ Travel back to Earth: The journey back to Earth would take about nine months. Th
 Landing on Earth: The colonists would land on Earth and be greeted as heroes. They would share their stories and knowledge with the world, and help to usher in a new era of space exploration.
 
 
-# The Dungeon master / Space Wizard: Here are some potential challenges that the team might face:
+## The Dungeon master / Space Wizard: Here are some potential challenges that the team might face:
 
 Technical problems: The spacecraft could malfunction, or the colonists could be exposed to radiation.
 
