@@ -10,15 +10,17 @@ The choices you make determine how far we go.
 ---
 ## To Start the game first give each player a role and a dice to roll if needed…
 
->Player 1: the “Dungeon master”/“Space wizard” uses a LLM to generate a challenge for the party to overcome. 
+>Player 1: the “Dungeon master”/“Space wizard” uses a LLM to generate a challenge for the party to overcome (use You.com (or other AI chatbots to assist with narrative synthesis) to assist with narrative development). 
 >
->Player 2: uses AI art generators to make an image that represents each turn.
+>Player 2: "Graphic designer" uses AI art generators to make an image that represents each turn (adobefirefly, DALLE2, etc...).
 >
->Player 3: uses LLM to write a summary of how they could over come the challange.
+>Player 3: "Medical team lead" uses LLM to write a summary of how they could over come the challange (BARD).
 >
->Player 4: uses LLM to generate some computer code that could help at that stage of the narrative.
+>Player 4: "Coder" uses LLM to generate some computer code that could help at that stage of the narrative (eg. perplexity.ai).
 >
->Player 5: the team leader then collates these into a ‘ game turn ‘ summary slide on a white board.
+>Playrt 5: "Librarian" uses LLM to mine literature (eg. elicit.ai) 
+>
+>Player 6: "Military team lead" the team leader then collates these into a ‘ game turn ‘ summary slide on a white board.
 
 Perhaps you have a mechanical engineer who wants to make some 3D models .stl, then go for it!
 Perhaps you an electrical engineer who wants to design some circuits? Then go for it!
@@ -49,6 +51,7 @@ Scientist, captain, engineer, farmer, doctor, others...?
 > Agriculture	
 > Leadership
 > Scientist	
+> Librarian
 > Ohers...?
 
 Creat AI team pic 
