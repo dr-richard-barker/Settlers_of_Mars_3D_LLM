@@ -5,8 +5,10 @@ Goal: This is a role-playing game where you develop and learn about your own per
 As you adventure across the board, a series of developments occur on your journey through the Settlers of Mars board game. 
 Your personal character and team embark on a quest to Mars, during which you will encounter a series of environments that may contain challenges or rewards. 
 How will your team use these to further your journey through time and the space made available by earlier settlers on Mars?
+The choices you make determine how far we go.
 
 ## To Start the game first give each player a role and a dice to roll if needed…
+
 >Player 1: the “Dungeon master”/“Space wizard” uses a LLM to generate a challenge for the party to overcome. 
 >
 >Player 2: uses AI art generators to make an image that represents each turn.
@@ -26,21 +28,26 @@ That depends on you and the choices your team make,
 
 
 ## The star of the game is our Sun and start of your adventure is our beautiful blue origin, Earth. 
-The choices you make determine how far we go.
-
 Here are some additional details that could be included in the game if the “Dungeon master”/“Space wizard” chooses:
 
 The players must choose to play as members of different factions, such as the government, a private corporation, a national military or a religious group(s)...etc... 
 
 The game could include different types of challenges, such as political intrigue, economic hardship, and environmental disaster(s).
 The game can have a variety of different endings, depending on the choices that the players make, such as…
-stopping at the moon, 
-a one way trip Mars,
-a return trip to Mars, 
-disease outbreak on mars,
-a trip to the edge of the solar system, 
-meeting aliens, 
-or contracting alien disease. 
+
+> stopping at the moon, 
+> 
+> a one way trip Mars,
+> 
+> a return trip to Mars, 
+> 
+> disease outbreak on mars,
+> 
+> a trip to the edge of the solar system, 
+> 
+> meeting aliens, 
+> 
+> or contracting alien disease. 
 
 This is just a basic outline, of course, the game structure will vary based on how you decide to use the dice and AI. During the game the “dungeon master will consult with BARD, ChatGTP, YOU, and make up general excuses to use the dice. 
 
@@ -49,27 +56,29 @@ The specific details of the game would depend on the interests of the players, t
 # Overview
 This game is a combination of a DnD style choose your adventure role playing adventure that travels across a Settlers of Mars board.
 
-1. Setting the scene/date: The game is set in the near future, when humans have begun to colonize the moon and are exploring Mars. The players take on the role of colonists who are tasked with building a new home for humanity on the frontiers of these two new worlds.
+> 1. Setting the scene/date: The game is set in the near future, when humans have begun to colonize the moon and are exploring Mars. The players > take on the role of colonists who are tasked with building a new home for humanity on the frontiers of these two new worlds.
 
-2. Creating Characters: During the game the players develope their own characters while exploring the new world(s).Member of the team will chose to become scientists, engineers, farmers, soldiers, or any other type of person who would be useful in a colonization effort. The characters will need to work together to overcome the challenges of living in space and building a new society.
+> 2. Creating Characters: During the game the players develope their own characters while exploring the new world(s).Member of the team will chose to become scientists, engineers, farmers, soldiers, or any other type of person who would be useful in a colonization effort. The characters will need to work together to overcome the challenges of living in space and building a new society.
 
-3. Evolving Gameplay: The game is played in a series of sessions, each of which represents a day in the life of the colonists and the corporations they represent. The players will make decisions about how to spend their time, such as exploring the planet, building new structures, or conducting scientific research. They will also have to deal with unexpected challenges, such as natural disasters, hostile aliens, or even the occasional mutiny.
+> 3. Evolving Gameplay: The game is played in a series of sessions, each of which represents a day in the life of the colonists and the corporations they represent. The players will make decisions about how to spend their time, such as exploring the planet, building new structures, or conducting scientific research. They will also have to deal with unexpected challenges, such as natural disasters, hostile aliens, or even the occasional mutiny.
 
-4. Unknown Conclusion: The game ends when the colonists have successfully established a permanent settlement on the moon and Mars. The players will then have to decide what kind of society they want to build on these two worlds. Will they be a peaceful utopia or a militaristic dictatorship? The choice is up to you!
+> 4. Unknown Conclusion: The game ends when the colonists have successfully established a permanent settlement on the moon and Mars. The players will then have to decide what kind of society they want to build on these two worlds. Will they be a peaceful utopia or a militaristic dictatorship? The choice is up to you!
 
-Choose your character
-Scientist, captain, engineer, farmer, doctor
 
-The teams and their skills
-Insert AI team pic 
 
-## Potential Characters
-Intelligence	
-Construction	
-Medicine	
-Agriculture	
-Leadership
-Scientist	
+# Potential Characters to choose from
+Scientist, captain, engineer, farmer, doctor, others...?
+
+## Choose their strengtha
+> Intelligence	
+> Construction	
+> Medicine	
+> Agriculture	
+> Leadership
+> Scientist	
+> Ohers...?
+
+Creat AI team pic 
 
 ## Descriptions of the characteristics your team will find useful for colonizing Mars:
 
