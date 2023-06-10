@@ -10,7 +10,7 @@ The choices you make determine how far we go.
 ---
 ## To Start the game first give each player a role and a dice to roll if needed…
 
->Player 1: the “Dungeon master”/“Space wizard” uses a LLM to generate a challenge for the party to overcome (use You.com (or other AI chatbots to assist with narrative synthesis) to assist with narrative development). 
+>Player 1: the “Dungeon master”/“Space wizard” uses a LLM to generate a challenge for the party to overcome (use You.com or other AI chatbots to assist with narrative synthesis, to assist with narrative development, or "dice rolling"). 
 >
 >Player 2: "Graphic designer" uses AI art generators to make an image that represents each turn (adobefirefly, DALLE2, etc...).
 >
@@ -34,7 +34,7 @@ This game is a combination of a DnD style choose your adventure role playing adv
 
 > 1. Setting the scene/date: The game is set in the near future, when humans have begun to colonize the moon and are exploring Mars. The players > take on the role of colonists who are tasked with building a new home for humanity on the frontiers of these two new worlds.
 
-> 2. Creating Characters: During the game the players develope their own characters while exploring the new world(s).Member of the team will chose to become scientists, engineers, farmers, soldiers, or any other type of person who would be useful in a colonization effort. The characters will need to work together to overcome the challenges of living in space and building a new society.
+> 2. Creating (Your) Characters: During the game the players develope their own characters while exploring the new world(s).Member of the team will chose to become scientists, engineers, farmers, soldiers, or any other type of person who would be useful in a colonization effort. The characters will need to work together to overcome the challenges of living in space and building a new society.
 
 > 3. Evolving Gameplay: The game is played in a series of sessions, each of which represents a day in the life of the colonists and the corporations they represent. The players will make decisions about how to spend their time, such as exploring the planet, building new structures, or conducting scientific research. They will also have to deal with unexpected challenges, such as natural disasters, hostile aliens, or even the occasional mutiny.
 
@@ -59,20 +59,20 @@ Creat AI team pic
 ---
 ## Descriptions of the characteristics your team will find useful for colonizing Mars:
 
-> Science: Scientists are essential for any colonization effort. They will be responsible for conducting research on the planet, developing new technologies, and finding ways to overcome the challenges of living in space.
+>> Science: Scientists are essential for any colonization effort. They will be responsible for conducting research on the planet, developing new technologies, and finding ways to overcome the challenges of living in space.
 
 > Engineering: Engineers are also essential for any colonization effort. They will be responsible for designing and building the structures that will be needed to support the colonists, such as habitats, power plants, and transportation systems.
-
+>
 > Medicine: Doctors and nurses will be essential for providing medical care to the colonists. They will also be responsible for developing new ways to prevent and treat diseases in space.
-
+>
 > Agriculture: Farmers and chefs will be essential for growing food for the colonists. They will need to find ways to grow crops in the harsh Martian environment.
-
-> Leadership: Sociological leaders will be essential for keeping the colonists organized and motivated. They will need to be able to make difficult decisions and deal with unexpected challenges. Does this come from Space force or some other higher power (or religion).
-Others: The goal of the game is your own personal character and team development so feel free to add others.
+>
+> Leadership: Sociological leaders will be essential for keeping the colonists organized and motivated. They will need to be able to make difficult decisions and deal with unexpected challenges. Does this come from Space force or some other higher power (or >religion).
+>Others: The goal of the game is your own personal character and team development so feel free to add others.
 
 ---
 ## The star of the game is our Sun and start of your adventure is our beautiful blue origin, Earth. 
-Here are some additional details that could be included in the game if the “Dungeon master”/“Space wizard” chooses:
+Here are some additional details that could be included in the game if the “Dungeon Master”/“Space wizard” chooses:
 
 The players must choose to play as members of different factions, such as the government, a private corporation, a national military or a religious group(s)...etc... 
 
@@ -93,27 +93,27 @@ The game can have a variety of different endings, depending on the choices that 
 > 
 > or contracting alien disease. 
 
-This is just a basic outline, of course, the game structure will vary based on how you decide to use the dice and AI. During the game the “dungeon master will consult with BARD, ChatGTP, YOU, and make up general excuses to use the dice. 
+This is just a basic outline, of course, the game structure will vary based on how you decide to use the dice and AI. During the game the “Dungeon Master"/"Space Wizard" will consult with BARD, ChatGTP, YOU, and make up general excuses to use the dice. 
 
 ---
 # The stages / challenges to overcome as a team: 2xD6 are roll at each stage to help determine the narrative. Each player takes it in turn.
-
+>
 > Resource gathering on Earth: The colonists build a road across a “Catan” style Earth collecting resources needed to build a space vehicle.
-
+>
 > Launch: The colonists would launch from Earth in a specially-designed spacecraft. The launch would be a critical moment, as any problems could be catastrophic.
-
+>
 > Travel to the Moon: The journey to the Moon would take about three days. The colonists would spend their time in cryosleep to conserve resources.
-
+>
 > Landing on the Moon: The colonists would land on the Moon and begin their exploration. They would conduct scientific experiments, collect samples, and set up a base camp.
-
+>
 > Travel to Mars: The journey to Mars would take about nine months. The colonists would spend their time in cryosleep to conserve resources.
-
+>
 > Landing on Mars: The colonists would land on Mars and begin their exploration. They would conduct scientific experiments, collect samples, and set up a base camp.
 >
 > Living on Mars: The team need to build a water mine and start farming.
-
+>
 > Travel back to Earth: The journey back to Earth would take about nine months. The colonists would spend their time in cryosleep to conserve resources.
-
+>
 > Landing on Earth: The colonists would land on Earth and be greeted as heroes. They would share their stories and knowledge with the world, and help to usher in a new era of space exploration.
 
 The specific details of the game would depend on the interests of the players, the decisions they make, the creativity of the game designer and the role of the dice.
@@ -132,16 +132,16 @@ Game players can adjust these values but they need to justify how or why -> thei
 ---
 # Games components - use the settlers of Mars board for narrative development 
 ## Settlers-of-mars-3D-models-
-3D models for settlers of Mars board game are included in the repo' and can be printed to help prepare your guide for this educational adventure.
+3D models for settlers of Mars board game are included in the repo' and can be printed to help as a phyiscial guide for this educational adventure. If you're familir with the unity game platform (https://unity.com/download) and have a windowOS then you could also try launching this virtual Catan game (https://github.com/Andorr/SettlersOfCatlan).
 
 > Settlements: Settlements could represent the different colonies that are being established on Mars. They would need to be built in strategic locations, such as near resources or transportation routes.
 
 > Domed Cities: Cities could represent the larger, more developed colonies on Mars. They would need to be built on top of settlements and would provide more resources and benefits to the colonists.
-
+>
 > Roads: Roads could represent the transportation systems that are being built on Mars. They would need to be built between settlements and cities in order to connect them and allow the colonists to move around more easily.
-
+>
 > Development cards: Development cards could represent the different technologies that are being developed on Mars. They could be used to improve the colonists' lives, such as by providing them with food, water, or shelter.
-
+>
 > Random Robber: The random robber represent the dangers that the colonists face on Mars, such as natural disasters, radiation waves or even hostile aliens. It could be used to steal resources from the colonists or to block their access to certain areas.
 
 2 dice: The dice could be used to determine the number of resources that are available to the colonists each turn. They could also be used to determine the outcome of events, such as natural disasters.
@@ -150,22 +150,22 @@ Game players can adjust these values but they need to justify how or why -> thei
 # Extra components colonizers can select for this Settlers of Mars role-play game:
 
 > Spaceships: Spaceships could be used to transport the colonists to Mars and to bring them back to Earth or it’s moon. 
-
+>
 > Rovers: They could also be used to explore the Martian surface and to transport resources between different colonies.
-
+>
 > Robots: Robots could be used to help the colonists with tasks, such as building structures or mining resources. They could also be used to defend the colonies from attack.
-
+>
 > Alien defence system: Aliens could represent the other life forms that exist on Mars. They could be friendly or hostile, and they could pose a threat to the colonists.
 
 ---
 ## The Dungeon master / Space Wizard: Here are some potential challenges that the team might face:
 
 > Technical problems: The spacecraft could malfunction, or the colonists could be exposed to radiation.
-
+>
 > Environmental hazards: The Moon and Mars are both harsh environments, and the colonists could be exposed to extreme temperatures, radiation, and dust.
-
+>
 > Alien life: The colonists could encounter hostile alien life forms.
-
+>
 > Psychological challenges: The long journey to Mars and back could take a toll on the colonists' mental health.
 
 > Resource hexes: The resource hexes could be replaced with different types of Martian terrain, such as ice caps, deserts, and forests. Each type of terrain would produce different resources. For example, ice caps could produce water, deserts could produce metals, and forests could produce wood.
