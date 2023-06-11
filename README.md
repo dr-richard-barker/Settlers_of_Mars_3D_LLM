@@ -23,6 +23,7 @@ The choices you make determine how far we go.
 >Player 6: "Military team lead" the team leader then collates these into a ‘ game turn ‘ summary slide on a white board.
 
 Perhaps you have a mechanical engineer who wants to make some 3D models .stl, then go for it!
+perhaps a muscian wants to use AI to make new audio samples.
 Perhaps you an electrical engineer who wants to design some circuits? Then go for it!
 
 How many challenges / stages will your team over come you on your way to settling mars?
@@ -52,6 +53,7 @@ Scientist, captain, engineer, farmer, doctor, others...?
 > Leadership
 > Scientist	
 > Librarian
+> Musician
 > Ohers...?
 
 Creat AI team pic 
