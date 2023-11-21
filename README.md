@@ -1,4 +1,4 @@
-![Poster showing the first test run of Settlers of Mars]([example-image.png](https://github.com/dr-richard-barker/Settlers-of-mars-3D-models-/edit/main/README.md#:~:text=Dome.STL-,EmbeddedImage,-.jpeg))
+![Poster showing the first test run of Settlers of Mars]([example-image.png](https://github.com/dr-richard-barker/Settlers-of-mars-3D-models-/Settlers-of-mars-3D-models/EmbeddedImage.jpeg))
 
 # Settlers of Mars 
 Goal: This is a role-playing game where you develop and learn about your own personal character. 
@@ -23,7 +23,7 @@ The choices you make determine how far we go.
 >Player 6: "Military team lead" the team leader then collates these into a ‘ game turn ‘ summary slide on a white board.
 
 Perhaps you have a mechanical engineer who wants to make some 3D models .stl, then go for it!
-perhaps a muscian wants to use AI to make new audio samples.
+perhaps a musician wants to use AI to make new audio samples.
 Perhaps you an electrical engineer who wants to design some circuits? Then go for it!
 
 How many challenges / stages will your team over come you on your way to settling mars?
