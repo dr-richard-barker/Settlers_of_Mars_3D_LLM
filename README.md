@@ -10,32 +10,32 @@ The choices you make determine how far we go.
 ---
 ## To Start the game first give each player a role and a dice to roll if needed…
 
->Player 1: the “Dungeon master”/“Space wizard” uses a LLM to generate a challenge for the party to overcome (use You.com or other AI chatbots to assist with narrative synthesis, to assist with narrative development, or "dice rolling"). 
+>Player 1: the “Dungeon master”/“Space wizard” uses a LLM to generate a challenge for the party to overcome (use You.com or other AI chatbots to assist with narrative synthesis, to > assist with narrative development, or "dice rolling"). 
 >
 >Player 2: "Graphic designer" uses AI art generators to make an image that represents each turn (adobefirefly, DALLE2, etc...).
 >
->Player 3: "Medical team lead" uses LLM to write a summary of how they could over come the challange (BARD).
+>Player 3: "Medical team lead" uses LLM to write a summary of how they could overcome the challenge (BARD).
 >
 >Player 4: "Coder" uses LLM to generate some computer code that could help at that stage of the narrative (eg. perplexity.ai).
 >
 >Playrt 5: "Librarian" uses LLM to mine literature (eg. elicit.ai) 
 >
->Player 6: "Military team lead" the team leader then collates these into a ‘ game turn ‘ summary slide on a white board.
+>Player 6: "Military team lead" The team leader then collates these into a ‘ game turn ‘ summary slide on a white board.
 
 Perhaps you have a mechanical engineer who wants to make some 3D models .stl, then go for it!
 perhaps a musician wants to use AI to make new audio samples.
 Perhaps you an electrical engineer who wants to design some circuits? Then go for it!
 
-How many challenges / stages will your team over come you on your way to settling mars?
+How many challenges / stages will your team over come you on your way to settling Mars?
 That depends on you and the choices your team make,
 
 ---
 # Overview
-This game is a combination of a DnD style choose your adventure role playing adventure that travels across a Settlers of Mars board.
+This game is a combination of a DnD style choose your adventure role-playing adventure that travels across a Settlers of Mars board.
 
-> 1. Setting the scene/date: The game is set in the near future, when humans have begun to colonize the moon and are exploring Mars. The players > take on the role of colonists who are tasked with building a new home for humanity on the frontiers of these two new worlds.
+> 1. Setting the scene/date: The game is set in the near future when humans have begun to colonize the moon and are exploring Mars. The players > take on the role of colonists who are tasked with building a new home for humanity on the frontiers of these two new worlds.
 
-> 2. Creating (Your) Characters: During the game the players develope their own characters while exploring the new world(s).Member of the team will chose to become scientists, engineers, farmers, soldiers, or any other type of person who would be useful in a colonization effort. The characters will need to work together to overcome the challenges of living in space and building a new society.
+> 2. Creating (Your) Characters: During the game, the players develop their own characters while exploring the new world(s). Members of the team will choose to become scientists, engineers, farmers, soldiers, or any other type of person who would be useful in a colonization effort. The characters will need to work together to overcome the challenges of living in space and building a new society.
 
 > 3. Evolving Gameplay: The game is played in a series of sessions, each of which represents a day in the life of the colonists and the corporations they represent. The players will make decisions about how to spend their time, such as exploring the planet, building new structures, or conducting scientific research. They will also have to deal with unexpected challenges, such as natural disasters, hostile aliens, or even the occasional mutiny.
 
@@ -61,20 +61,20 @@ Creat AI team pic
 ---
 ## Descriptions of the characteristics your team will find useful for colonizing Mars:
 
->> Science: Scientists are essential for any colonization effort. They will be responsible for conducting research on the planet, developing new technologies, and finding ways to overcome the challenges of living in space.
-
+> Science: Scientists are essential for any colonization effort. They will be responsible for conducting research on the planet, developing new technologies, and finding ways to overcome the challenges of living in space.
+>
 > Engineering: Engineers are also essential for any colonization effort. They will be responsible for designing and building the structures that will be needed to support the colonists, such as habitats, power plants, and transportation systems.
 >
 > Medicine: Doctors and nurses will be essential for providing medical care to the colonists. They will also be responsible for developing new ways to prevent and treat diseases in space.
 >
 > Agriculture: Farmers and chefs will be essential for growing food for the colonists. They will need to find ways to grow crops in the harsh Martian environment.
 >
-> Leadership: Sociological leaders will be essential for keeping the colonists organized and motivated. They will need to be able to make difficult decisions and deal with unexpected challenges. Does this come from Space force or some other higher power (or >religion).
+> Leadership: Sociological leaders will be essential for keeping the colonists organized and motivated. They will need to be able to make difficult decisions and deal with unexpected challenges. Does this come from Space Force or some other higher power (or >religion).
 >Others: The goal of the game is your own personal character and team development so feel free to add others.
 
 ---
-## The star of the game is our Sun and start of your adventure is our beautiful blue origin, Earth. 
-Here are some additional details that could be included in the game if the “Dungeon Master”/“Space wizard” chooses:
+## The star of the game is our Sun and the start of your adventure is our beautiful blue origin, Earth. 
+Here are some additional details that could be included in the game if the “Dungeon Master”/“Space Wizard” chooses:
 
 The players must choose to play as members of different factions, such as the government, a private corporation, a national military or a religious group(s)...etc... 
 
@@ -98,11 +98,11 @@ The game can have a variety of different endings, depending on the choices that 
 This is just a basic outline, of course, the game structure will vary based on how you decide to use the dice and AI. During the game the “Dungeon Master"/"Space Wizard" will consult with BARD, ChatGTP, YOU, and make up general excuses to use the dice. 
 
 ---
-# The stages / challenges to overcome as a team: 2xD6 are roll at each stage to help determine the narrative. Each player takes it in turn.
+# The stages / challenges to overcome as a team: 2xD6 are rolled at each stage to help determine the narrative. Each player takes it in turn.
 >
-> Resource gathering on Earth: The colonists build a road across a “Catan” style Earth collecting resources needed to build a space vehicle.
+> Resource gathering on Earth: The colonists built a road across a “Catan” style Earth collecting resources needed to build a space vehicle.
 >
-> Launch: The colonists would launch from Earth in a specially-designed spacecraft. The launch would be a critical moment, as any problems could be catastrophic.
+> Launch: The colonists would launch from Earth in a specially designed spacecraft. The launch would be a critical moment, as any problems could be catastrophic.
 >
 > Travel to the Moon: The journey to the Moon would take about three days. The colonists would spend their time in cryosleep to conserve resources.
 >
@@ -134,7 +134,7 @@ Game players can adjust these values but they need to justify how or why -> thei
 ---
 # Games components - use the settlers of Mars board for narrative development 
 ## Settlers-of-mars-3D-models-
-3D models for settlers of Mars board game are included in the repo' and can be printed to help as a phyiscial guide for this educational adventure. If you're familir with the unity game platform (https://unity.com/download) and have a windowOS then you could also try launching this virtual Catan game (https://github.com/Andorr/SettlersOfCatlan).
+3D models for settlers of Mars board game are included in the repo' and can be printed to help as a physical guide for this educational adventure. If you're familir with the unity game platform (https://unity.com/download) and have a windowOS then you could also try launching this virtual Catan game (https://github.com/Andorr/SettlersOfCatlan).
 
 > Settlements: Settlements could represent the different colonies that are being established on Mars. They would need to be built in strategic locations, such as near resources or transportation routes.
 
