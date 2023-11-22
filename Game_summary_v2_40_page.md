@@ -44,4 +44,4 @@ Each session can be tailored to the players' interests, with the Space Wizard gu
 
 This framework is highly adaptable and can be modified to fit various gameplay styles, ensuring a unique and engaging experience for all players involved in colonizing Mars.
 
-![Earth Rise From the Moon](images/apollo_moon.png)
+![Earth Rise From the Moon](Images/SpaceX_inpired_settlers_of_mars_montage.jpeg)
