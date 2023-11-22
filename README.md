@@ -19,4 +19,4 @@ These promt's can be used to train AI-GTP's to help guide you on your adventure,
 More information on how to hide scientific discoveries in the game play is coming soon(ish)... 
 
 **Note:** 
-It is more fun having a real character on your team, but having a well-trained AI-space wizard can help the gameplay and storyboard synthesis occur.  
+It is more fun having a real character on your team, but having a well-trained AI-space wizard can help the gameplay and storyboard synthesis occur in a fun and informative fashion.  
