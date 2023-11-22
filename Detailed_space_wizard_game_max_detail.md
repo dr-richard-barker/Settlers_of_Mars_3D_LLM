@@ -1,4 +1,4 @@
-Welcoem to the Settlers of Mars - Space Wizard addition
+Welcome to the Settlers of Mars - Space Wizard addition
 
 # Settlers of Mars 
 Goal: This is a role-playing game where you develop and learn about your own personal character. 
