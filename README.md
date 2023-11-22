@@ -10,8 +10,11 @@ I hope you try to play Settlers of Mars with your friends, family, colleagues an
 The making of the models is an option but does assist with creating the adventure and provides a fun project-based learning program for introductory additive manufacturing. 
 ### https://www.yeggi.com/q/settlers+of+catan/
 
-To get started playing Settler of Mars One can read any of the 3 games play templates. 
-In addition, these promt's can be used to train AI-GTP's to help guide you on your adventure. 
+Or buy the official set from the Catan Shop. 
+### https://catanshop.com/catan-3d
+
+To get started playing "Settler of Mars" players can use any of the 3 games play templates designed to taylor chat bots to facilitate an original game plan. 
+These promt's can be used to train AI-GTP's to help guide you on your adventure, they can be customized to create a range of training scenarios. 
 
 More information on how to hide scientific discoveries in the game play is coming soon(ish)... 
 
