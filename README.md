@@ -20,3 +20,6 @@ More information on how to hide scientific discoveries in the game play is comin
 
 **Note:** 
 It is more fun having a real character on your team, but having a well-trained AI-space wizard can help the gameplay and storyboard synthesis occur in a fun and informative fashion.  
+
+![Characters](Characters/space_characters.webp)
+
