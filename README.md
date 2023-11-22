@@ -2,7 +2,7 @@
 
 I hope you try to play Settlers of Mars with your friends, family, colleagues and anyone else you get to hang out with. This is a "choose your own adventure game" that can be indulged purply in the imagination using dungeons and dragon role play, or via a 2D or 3D board game based on the Settlers and Civilisation classics.
 
-![Poster showing the first test run of Settlers of Mars](Images/Primary_Poster_Insight_Wisconsin.jpeg)
+![Poster showing the first test run of Settlers of Mars](Primary_Poster_Insight_Wisconsin.jpeg)
 
 ## The Martian and Lunar surface designs can be found in the "STL files folder".
 
