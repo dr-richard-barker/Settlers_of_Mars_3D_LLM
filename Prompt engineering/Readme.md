@@ -1,3 +1,4 @@
+## Dalle3_promp_engineering
 
 **Create a hyper-detailed 3D image of a game board**
 Create a hyper-detailed 3D image of a game board similar to the 'Settlers of Catan' board game, with a layout that closely resembles the original photo provided, but with a futuristic space theme. The board should include seven hexagonal tiles arranged in the following manner, adding a moon piece, a space station piece, and a mars piece: 
