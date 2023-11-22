@@ -14,4 +14,4 @@
 
 After each role has contributed to the turn, the team collectively decides on the best course of action to take, informed by the synthesized information. The decision is then enacted, and its consequences or results are narrated by the Space Wizard, setting up the scenario for the next turn.
 
-![Characters](Characters/space_characters_2.webp)
+![Characters](space_characters_2.webp)
