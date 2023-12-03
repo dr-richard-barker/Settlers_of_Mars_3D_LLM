@@ -30,7 +30,7 @@ Or buy the official set from the Catan Shop.
 To get started playing "Settler of Mars" players can use any of the 3 games play templates designed to tailor chatbots to facilitate an original game plan. 
 These promt's can be used to train AI-GTP's to help guide you on your adventure, they can be customized to create a range of training scenarios. 
 
-For example, feeding the chat but this report on the fututre of European Space Exploration can create a ESA related spin on the game narrative. 
+For example, feeding the chat but this report on the future of European Space Exploration can create an ESA-related spin on the game narrative. 
 https://www.espi.or.at/wp-content/uploads/2023/11/Future-of-European-Space-Exploration_final-version-1.pdf
 
 More information on how to hide scientific discoveries in the gameplay is coming soon(ish)... 
