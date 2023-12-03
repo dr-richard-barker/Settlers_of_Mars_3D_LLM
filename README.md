@@ -2,7 +2,7 @@
 
 ##**"Settlers of Mars and D&D Role Player Adventure: The Gateway to Space Science Mastery"**
 
-Gone are the days when conventional games like chess or Pokémon Go were the peak of interactive learning. Now, imagine a world where the thrill of board games and role-playing adventures merge with educational prowess. Enter the realms of "Settlers of Mars" and "D&D Role Player Adventure," games that are not just pastimes but powerful tools in advancing scientific knowledge and skills, particularly in space biology, biotechnology, and aerospace engineering.
+Gone are the days when conventional games like chess or Pokémon Go were the peak of interactive learning. Now, imagine a world where the thrill of board games and role-playing adventures merge with educational prowess. Enter the realms of "Settlers of Mars" and "D&D Role Player Adventure," games that are not just pastimes but powerful tools for advancing scientific knowledge and skills, particularly in space biology, biotechnology, and aerospace engineering.
 
 
 By blending the captivating elements of popular games with educational content, "Settlers of Mars" and "D&D Role Player Adventure" stand as exemplary models of how gaming can revolutionize learning in science. They are not just games; they are gateways to mastering the complexities of space science, making learning an adventure that is as thrilling as it is informative.
@@ -13,20 +13,20 @@ I hope you try to play Settlers of Mars with your friends, family, colleagues an
 
 Picture a scenario where a player, navigating to the harsh Martian landscape in "Settlers of Mars," learns about vital space biology concepts. Each settlement they build or resource they trade mirrors real-world biotechnological advancements and ecological balancing acts necessary for surviving on another planet. This game, inspired by the mechanics of the beloved Settlers of Catan, teaches players about resource management and ecological sustainability, crucial for any aspiring space biologist or biotechnologist.
 
-On the other hand, "D&D Role Player Adventure" takes players on a fantastical journey through the universe, where each quest and character interaction is a lesson in aerospace exploration and biotech engineering. Instead of navigating dungeons we aim to explore our solarsystem, so appreciating complexities of spacecraft design, and the dragons they defeat symbolize the overcoming of engineering challenges in space exploration. As players delve deeper into this role-playing world, they inadvertently learn about propulsion systems, space habitat dynamics, and the importance of teamwork in overcoming the astronomical odds associated with space exploration.
+On the other hand, "D&D Role Player Adventure" takes players on a fantastical journey through the universe, where each quest and character interaction is a lesson in aerospace exploration and biotech engineering. Instead of navigating dungeons, we aim to explore our solar system, so appreciating the complexities of spacecraft design, and the dragons they defeat symbolize the overcoming of engineering challenges in space exploration. As players delve deeper into this role-playing world, they inadvertently learn about propulsion systems, space habitat dynamics, and the importance of teamwork in overcoming the astronomical odds associated with space exploration.
 
-Both games serve as dynamic educational platforms, addressing the untaught and informal curriculum often missed in formal scientific education. They fill in the gaps left by traditional methods, offering a fun yet profound learning experience that is interactive and engaging. The collaborative nature of these games also mimics real-world scientific teamwork, teaching players the importance of collaboration, strategy, and critical thinking. So with creative adn cooperative thinking their are infintate ways to merge these dynamic gaming to an original educational experience.
+Both games serve as dynamic educational platforms, addressing the untaught and informal curriculum often missed in formal scientific education. They fill in the gaps left by traditional methods, offering a fun yet profound learning experience that is interactive and engaging. The collaborative nature of these games also mimics real-world scientific teamwork, teaching players the importance of collaboration, strategy, and critical thinking. So with creative and cooperative thinking there are infinite ways to merge this dynamic gaming into an original educational experience.
 
 ## The Martian and Lunar surface designs can be found in the "STL files folder".
-3D models for settlers of Mars board game are included in the repo' and can be printed to help as a physical guide for this educational adventure. 
+3D models for Settlers of Mars board game are included in the repo' and can be printed to help as a physical guide for this educational adventure. 
 
-The making of the models is an option but does assist with creating the adventure and provides a fun project-based learning program for introductory additive manufacturing. 
-### https://www.yeggi.com/q/settlers+of+catan/
+## The making of the models is an option but does assist with creating the adventure and provides a fun project-based learning program for introductory additive manufacturing. 
+https://www.yeggi.com/q/settlers+of+catan/
 
-Or buy the official set from the Catan Shop. 
-### https://catanshop.com/catan-3d
+## Or buy the official set from the Catan Shop. 
+https://catanshop.com/catan-3d
 
-## Settlers of catan game is fun
+## This online version of the Settlers of Catan game is fun
 If you're familiar with the unity game platform (https://unity.com/download) and have a windowOS then you could also try launching this virtual Catan game (https://github.com/Andorr/SettlersOfCatlan).
 
 
