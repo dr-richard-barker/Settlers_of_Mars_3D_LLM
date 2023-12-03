@@ -4,4 +4,4 @@ You can print the .stl files on 3D printers!
 
 more info' coming...
 
-![Settlers of Mars Real Board] (Settlers of Mars Real Board.png)
+![Settlers_of_Mars_Real_Board] (Settlers_of_Mars_Real_Board.png)
