@@ -7,27 +7,64 @@ Your personal character and team embark on a quest to Mars, during which you wil
 How will your team use these to further your journey through time and the space made available by earlier settlers on Mars?
 The choices you make determine how far we go.
 
+This is just a basic outline, of course, the game structure will vary based on how you decide to use the dice and AI. 
+During the game, the “Dungeon Master"/"Space Wizard" will consult with Open.ai, BARD, ChatGTP, YOU, and make up general excuses to use the dice. 
+
 ---
 ## To Start the game first give each player a role and a dice to roll if needed…
 
 >Player 1: the “Dungeon master”/“Space wizard” uses a LLM to generate a challenge for the party to overcome (use You.com or other AI chatbots to assist with narrative synthesis, to > assist with narrative development, or "dice rolling"). 
 >
->Player 2: "Graphic designer" uses AI art generators to make an image that represents each turn (adobefirefly, DALLE2, etc...).
+>Player 2: "Graphic designer" uses AI art generators to make an image that represents each turn and design future habitats (adobe firefly, DALLE2, etc...).
 >
 >Player 3: "Medical team lead" uses LLM to write a summary of how they could overcome the challenge (BARD).
 >
->Player 4: "Coder" uses LLM to generate some computer code that could help at that stage of the narrative (eg. perplexity.ai).
+>Player 4: "Computer Coder" uses LLM to generate some computer code that could help at that stage of the narrative (eg. perplexity.ai).
 >
 >Playrt 5: "Librarian" uses LLM to mine literature (eg. elicit.ai) 
 >
->Player 6: "Military team lead" The team leader then collates these into a ‘ game turn ‘ summary slide on a white board.
+>Player 6: "Military team lead" The team leader then collates these into a ‘game turn‘ summary slide on a whiteboard.
+>
+>Player 7: "Farmer and scientist" uses the SIMOC tool to calculate habitat and farm size -> https://ngs.simoc.space/
 
 Perhaps you have a mechanical engineer who wants to make some 3D models .stl, then go for it!
 perhaps a musician wants to use AI to make new audio samples.
-Perhaps you an electrical engineer who wants to design some circuits? Then go for it!
+Perhaps you are an electrical engineer who wants to design some circuits? Then go for it!
 
-How many challenges / stages will your team over come you on your way to settling Mars?
+How many challenges/stages will your team overcome you on your way to settling Mars?
 That depends on you and the choices your team make,
+
+---
+# Potential Characters to choose from
+Scientist, captain, engineer, farmer, doctor, others...?
+
+## Choose your / their strengths
+> Intelligence	
+> Construction	
+> Medicine	
+> Agriculture	
+> Leadership
+> Science	
+> Reading
+> Music
+> Others...?
+
+Create AI team pic 
+
+---
+## Descriptions of the characteristics your team will find useful for colonizing Mars:
+
+> Science: Scientists are essential for any colonization effort. They will be responsible for conducting research on the planet, developing new technologies, and finding ways to overcome the challenges of living in space.
+>
+> Engineering: Engineers are also essential for any colonization effort. They will be responsible for designing and building the structures that will be needed to support the colonists, such as habitats, power plants, and transportation systems.
+>
+> Medicine: Doctors and nurses will be essential for providing medical care to the colonists. They will also be responsible for developing new ways to prevent and treat diseases in space.
+>
+> Agriculture: Farmers and chefs will be essential for growing food for the colonists. They will need to find ways to grow crops in the harsh Martian environment.
+>
+> Leadership: Sociological leaders will be essential for keeping the colonists organized and motivated. They will need to be able to make difficult decisions and deal with unexpected challenges. Does this come from the Space Force or some other higher power (or >religion).
+>Others: The goal of the game is your own personal character and team development so feel free to add others.
+
 
 ---
 # Overview
@@ -41,64 +78,32 @@ This game is a combination of a DnD style choose your adventure role-playing adv
 
 > 4. Unknown Conclusion: The game ends when the colonists have successfully established a permanent settlement on the moon and Mars. The players will then have to decide what kind of society they want to build on these two worlds. Will they be a peaceful utopia or a militaristic dictatorship? The choice is up to you!
 
----
-# Potential Characters to choose from
-Scientist, captain, engineer, farmer, doctor, others...?
-
-## Choose your / their strengths
-> Intelligence	
-> Construction	
-> Medicine	
-> Agriculture	
-> Leadership
-> Scientist	
-> Librarian
-> Musician
-> Ohers...?
-
-Creat AI team pic 
-
----
-## Descriptions of the characteristics your team will find useful for colonizing Mars:
-
-> Science: Scientists are essential for any colonization effort. They will be responsible for conducting research on the planet, developing new technologies, and finding ways to overcome the challenges of living in space.
->
-> Engineering: Engineers are also essential for any colonization effort. They will be responsible for designing and building the structures that will be needed to support the colonists, such as habitats, power plants, and transportation systems.
->
-> Medicine: Doctors and nurses will be essential for providing medical care to the colonists. They will also be responsible for developing new ways to prevent and treat diseases in space.
->
-> Agriculture: Farmers and chefs will be essential for growing food for the colonists. They will need to find ways to grow crops in the harsh Martian environment.
->
-> Leadership: Sociological leaders will be essential for keeping the colonists organized and motivated. They will need to be able to make difficult decisions and deal with unexpected challenges. Does this come from Space Force or some other higher power (or >religion).
->Others: The goal of the game is your own personal character and team development so feel free to add others.
 
 ---
 ## The star of the game is our Sun and the start of your adventure is our beautiful blue origin, Earth. 
 Here are some additional details that could be included in the game if the “Dungeon Master”/“Space Wizard” chooses:
 
 The players must choose to play as members of different factions, such as the government, a private corporation, a national military or a religious group(s)...etc... 
-
 The game could include different types of challenges, such as political intrigue, economic hardship, and environmental disaster(s).
 The game can have a variety of different endings, depending on the choices that the players make, such as…
 
-> stopping at the moon, 
+> A. stopping at the moon 
 > 
-> a one way trip Mars,
+> B. a one-way trip to Mars
 > 
-> a return trip to Mars, 
+> C. a return trip to Mars 
 > 
-> disease outbreak on mars,
+> D. Crop disease outbreak on Mars
 > 
-> a trip to the edge of the solar system, 
+> E. a trip to the edge of the solar system 
 > 
-> meeting aliens, 
+> F. meeting aliens 
 > 
-> or contracting alien disease. 
+> H. contracting alien disease on Mars 
 
-This is just a basic outline, of course, the game structure will vary based on how you decide to use the dice and AI. During the game the “Dungeon Master"/"Space Wizard" will consult with BARD, ChatGTP, YOU, and make up general excuses to use the dice. 
 
 ---
-# The stages / challenges to overcome as a team: 2xD6 are rolled at each stage to help determine the narrative. Each player takes it in turn.
+# The stages/challenges to overcome as a team: 2xD6 are rolled at each stage to help determine the narrative. Each player takes it in turn.
 >
 > Resource gathering on Earth: The colonists built a road across a “Catan” style Earth collecting resources needed to build a space vehicle.
 >
@@ -132,26 +137,23 @@ The specific characteristics and numerical values that are important for each ch
 Game players can adjust these values but they need to justify how or why -> their narrative has to convince their fellow game players.
 
 ---
-# Games components - use the settlers of Mars board for narrative development 
-## Settlers-of-mars-3D-models-
-3D models for settlers of Mars board game are included in the repo' and can be printed to help as a physical guide for this educational adventure. If you're familir with the unity game platform (https://unity.com/download) and have a windowOS then you could also try launching this virtual Catan game (https://github.com/Andorr/SettlersOfCatlan).
-
+# Games components - use the Settlers of Mars board for narrative development 
 > Settlements: Settlements could represent the different colonies that are being established on Mars. They would need to be built in strategic locations, such as near resources or transportation routes.
 
 > Domed Cities: Cities could represent the larger, more developed colonies on Mars. They would need to be built on top of settlements and would provide more resources and benefits to the colonists.
 >
-> Roads: Roads could represent the transportation systems that are being built on Mars. They would need to be built between settlements and cities in order to connect them and allow the colonists to move around more easily.
+> Roads: Roads could represent the transportation systems that are being built on Mars. They would need to be built between settlements and cities to connect them and allow the colonists to move around more easily.
 >
 > Development cards: Development cards could represent the different technologies that are being developed on Mars. They could be used to improve the colonists' lives, such as by providing them with food, water, or shelter.
 >
-> Random Robber: The random robber represent the dangers that the colonists face on Mars, such as natural disasters, radiation waves or even hostile aliens. It could be used to steal resources from the colonists or to block their access to certain areas.
+> Random Robber: The random robber represents the dangers that the colonists face on Mars, such as natural disasters, radiation waves or even hostile aliens. It could be used to steal resources from the colonists or to block their access to certain areas.
 
 2 dice: The dice could be used to determine the number of resources that are available to the colonists each turn. They could also be used to determine the outcome of events, such as natural disasters.
 
 ---
 # Extra components colonizers can select for this Settlers of Mars role-play game:
 
-> Spaceships: Spaceships could be used to transport the colonists to Mars and to bring them back to Earth or it’s moon. 
+> Spaceships: Spaceships could be used to transport the colonists to Mars and to bring them back to Earth or its moon. 
 >
 > Rovers: They could also be used to explore the Martian surface and to transport resources between different colonies.
 >
@@ -160,7 +162,7 @@ Game players can adjust these values but they need to justify how or why -> thei
 > Alien defence system: Aliens could represent the other life forms that exist on Mars. They could be friendly or hostile, and they could pose a threat to the colonists.
 
 ---
-## The Dungeon master / Space Wizard: Here are some potential challenges that the team might face:
+## The Dungeon Master / Space Wizard: Here are some potential challenges that the team might face:
 
 > Technical problems: The spacecraft could malfunction, or the colonists could be exposed to radiation.
 >
