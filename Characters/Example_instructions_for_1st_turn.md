@@ -1,4 +1,4 @@
-**Select your character**
+**Select / Design your character and their skills**
 
 Let's break down the first turn cycle of "Settlers of Mars" with each player's role in mind. For the sake of simplicity, we'll assume that the initial setup — choosing characters and defining their strengths — has been completed and that the team is ready to embark on their journey to Mars.
 
@@ -21,4 +21,4 @@ After each role has contributed to the turn, the team collectively decides on th
 
 The cycle would continue with each turn representing a new day or phase in the mission. The challenges can range from technical to social, environmental to political, reflecting the multifaceted obstacles a real Mars mission might encounter. The collaborative nature of the game ensures that every player's input is vital to the progression of the storyline and the success of the mission.
 
-![Choose your Characters](Characters/space_characters_3_people_v2.webp)
+![Choose your Characters](space_characters_3_people_v2.webp)
