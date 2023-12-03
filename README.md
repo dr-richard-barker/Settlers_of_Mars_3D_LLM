@@ -18,12 +18,16 @@ On the other hand, "D&D Role Player Adventure" takes players on a fantastical jo
 Both games serve as dynamic educational platforms, addressing the untaught and informal curriculum often missed in formal scientific education. They fill in the gaps left by traditional methods, offering a fun yet profound learning experience that is interactive and engaging. The collaborative nature of these games also mimics real-world scientific teamwork, teaching players the importance of collaboration, strategy, and critical thinking. So with creative adn cooperative thinking their are infintate ways to merge these dynamic gaming to an original educational experience.
 
 ## The Martian and Lunar surface designs can be found in the "STL files folder".
+3D models for settlers of Mars board game are included in the repo' and can be printed to help as a physical guide for this educational adventure. 
 
 The making of the models is an option but does assist with creating the adventure and provides a fun project-based learning program for introductory additive manufacturing. 
 ### https://www.yeggi.com/q/settlers+of+catan/
 
 Or buy the official set from the Catan Shop. 
 ### https://catanshop.com/catan-3d
+
+## Settlers of catan game is fun
+If you're familiar with the unity game platform (https://unity.com/download) and have a windowOS then you could also try launching this virtual Catan game (https://github.com/Andorr/SettlersOfCatlan).
 
 
 ### How to play with an AI "DnD" chatbot guide
