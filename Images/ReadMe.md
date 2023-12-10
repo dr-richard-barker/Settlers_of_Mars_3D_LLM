@@ -13,7 +13,7 @@ Stage 3: Find a location in the valleys of Mars to shelter from radiation
 ![Mars_valley](Mars_valley.PNG)
 
 
-Stage 4: Build a Martian settlement 
+Stage 4: Build a Martian settlement or model one in SIMOC -> https://simoc.space/simoc/
 ![NatGeo_BioDome_inspiration](NatGeo_BioDome_inspiration.PNG)
 
 
