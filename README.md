@@ -18,9 +18,9 @@ On the other hand, "D&D Role Player Adventure" takes players on a fantastical jo
 Both games serve as dynamic educational platforms, addressing the untaught and informal curriculum often missed in formal scientific education. They fill in the gaps left by traditional methods, offering a fun yet profound learning experience that is interactive and engaging. The collaborative nature of these games also mimics real-world scientific teamwork, teaching players the importance of collaboration, strategy, and critical thinking. So with creative and cooperative thinking there are infinite ways to merge this dynamic gaming into an original educational experience.
 
 ## The Martian and Lunar surface designs can be found in the "STL files folder".
-3D models for Settlers of Mars board game are included in the repo' and can be printed to help as a physical guide for this educational adventure. 
+3D models for the Settlers of Mars board game are included in the repo' and can be printed to help as a physical guide for this educational adventure. 
 
-## The making of the models is an option but does assist with creating the adventure and provides a fun project-based learning program for introductory additive manufacturing. 
+## The 3D printing, painting and synthesis of the models is a fun and playful way to learn about additive manufacturing. 
 https://www.yeggi.com/q/settlers+of+catan/
 
 ## Or buy the official set from the Catan Shop. 
