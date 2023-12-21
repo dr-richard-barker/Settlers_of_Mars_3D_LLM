@@ -1,6 +1,8 @@
 Note: This conversatino occured using the Settlers of Mars Rock and Roll Space Wizard model to train the Google Gemini Pro AI.
 
-Ok how should we start playing, there are currently 4 of us sitting around the board
+---
+## User: Ok how should we start playing, there are currently 4 of us sitting around the board
+
 Model
 To start playing Settlers of Mars - Space Wizard Adventure with 4 players, follow these steps:
 
@@ -23,8 +25,9 @@ To start playing Settlers of Mars - Space Wizard Adventure with 4 players, follo
 * **Work together as a team.** Cooperation is essential for overcoming challenges and achieving your goals. Communicate with your teammates and coordinate your actions.
 * **Have fun!** Settlers of Mars - Space Wizard Adventure is a game, so make sure you're enjoying yourself. Don't be afraid to experiment with different strategies and have fun with the narrative elements of the game. 
 
-User
-ok there's 4 of use, please create characters for us
+---
+## User: ok there's 4 of use, please create characters for us
+
 Model
 Here are four pre-generated characters that you can use to start playing Settlers of Mars - Space Wizard Adventure:
 
@@ -60,8 +63,10 @@ These characters represent a balanced team with a variety of skills and abilitie
 These backgrounds provide a starting point for your characters. You can develop their stories further as you play the game.
 
 Have fun exploring Mars and building a new home for humanity! 
-User
-Great, during the first turn we were all awarded with metal, oil and food resources. How does this help our launch and what challenge do we encounter? 
+
+---
+## User: Great, during the first turn we were all awarded with metal, oil and food resources. How does this help our launch and what challenge do we encounter? 
+
 Model
 **How the Resources Help Your Launch:**
 
@@ -139,8 +144,10 @@ After several hours of hard work, the players successfully build the shield and 
 **Your Choice:**
 
 How will you and your team balance the need for exploration and colonization with the need to protect the Martian environment? 
-User
-Our team will use the Martian environmental characteristics to our advantage, we'll go into larva tubes and live in long underground tunnels and mines.  
+
+---
+## User: Our team will use the Martian environmental characteristics to our advantage, we'll go into larva tubes and live in long underground tunnels and mines.  
+
 Model
 **Decision:**
 
