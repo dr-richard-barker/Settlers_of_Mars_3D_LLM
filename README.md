@@ -44,3 +44,9 @@ It is more fun having a real character on your team, but having a well-trained A
 
 ![Characters](Characters/space_characters.webp)
 
+This pdf slide show can help you get started playing the Settlers of Mars role play adventure game. 
+[Settlers of Mars AI training game action plan.pdf](https://github.com/dr-richard-barker/Settlers_of_Mars_3D_LLM/files/14726128/Settlers.of.Mars.AI.training.game.action.plan.pdf)
+
+You can down load and edit this .ppt slide show version can help you get started playing the Settlers of Mars role play adventure game. 
+[Settlers of Mars AI training game action plan.pptx](https://github.com/dr-richard-barker/Settlers_of_Mars_3D_LLM/files/14726129/Settlers.of.Mars.AI.training.game.action.plan.pptx)
+
