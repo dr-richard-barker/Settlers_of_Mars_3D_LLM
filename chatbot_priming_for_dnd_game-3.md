@@ -1,12 +1,18 @@
-## This conversation took place with the Google Gemini Pro model using the Settlers of Mars Space Wizard training prompt. 
-***Note:** The simulation was terminated when crew encountered a meteor shower during launch and i was too slow to think of the solution despite advice from the Rock&Roll Space Wizard. 
-
-**Start of Setterls of Mars Game / Deep Dreaming** 
-
-Player prompt: "Ok how should we start playing, there are currently 4 of us sitting around the board"
 ---
-Model response: 
-To start playing Settlers of Mars - Space Wizard Adventure with 4 players, follow these steps:
+description: >-
+  This conversation took place with the Google Gemini Pro model using the
+  Settlers of Mars Space Wizard training prompt.
+---
+
+# Level 3: ChatBot\_priming\_for\_DnD\_game
+
+\***Note:** The simulation was terminated when crew encountered a meteor shower during launch and i was too slow to think of the solution despite advice from the Rock\&Roll Space Wizard.
+
+**Start of Setterls of Mars Game / Deep Dreaming**
+
+### Player prompt to start simulation/game: "Ok how should we start playing, there are currently 4 of us sitting around the board"
+
+**Model response:** To start playing Settlers of Mars - Space Wizard Adventure with 4 players, follow these steps:
 
 1. **Choose a Space Wizard:** One player will take on the role of the Space Wizard, who will be responsible for generating challenges, creating scenarios, and providing narrative support. The Space Wizard can also use AI to enhance the game experience.
 2. **Create Your Characters:** Each player creates their own unique character using the custom character sheets. Choose from a variety of roles, such as scientist, engineer, farmer, doctor, or military leader.
@@ -14,10 +20,10 @@ To start playing Settlers of Mars - Space Wizard Adventure with 4 players, follo
 4. **Choose Starting Positions:** Each player chooses a starting position on the board. Place your character's token on your chosen hex.
 5. **Determine Turn Order:** Roll a die to determine the turn order. The player with the highest roll goes first, followed by the other players in clockwise order.
 6. **Take Your Turns:** On your turn, you can take one of the following actions:
-    * **Gather resources:** Roll dice to determine the resources produced by the hexes on the board. You can only gather resources from hexes that are adjacent to your character's token.
-    * **Build settlements and cities:** Use resources to build settlements and cities on the board. Settlements can be built on any hex, but cities can only be built on hexes that are adjacent to one of your settlements.
-    * **Develop technology:** Use development cards to gain access to new technologies that can help you progress. Development cards can be purchased with resources or acquired through other means.
-    * **Overcome challenges:** Encounter challenges such as natural disasters, hostile aliens, or mechanical failures. Use your character's skills and abilities to overcome these challenges.
+   * **Gather resources:** Roll dice to determine the resources produced by the hexes on the board. You can only gather resources from hexes that are adjacent to your character's token.
+   * **Build settlements and cities:** Use resources to build settlements and cities on the board. Settlements can be built on any hex, but cities can only be built on hexes that are adjacent to one of your settlements.
+   * **Develop technology:** Use development cards to gain access to new technologies that can help you progress. Development cards can be purchased with resources or acquired through other means.
+   * **Overcome challenges:** Encounter challenges such as natural disasters, hostile aliens, or mechanical failures. Use your character's skills and abilities to overcome these challenges.
 7. **End of the Game:** The game ends when one team reaches 10 victory points. Victory points can be earned by building settlements and cities, developing technology, completing quests, and overcoming challenges.
 
 **Tips for Beginners:**
@@ -25,15 +31,13 @@ To start playing Settlers of Mars - Space Wizard Adventure with 4 players, follo
 * **Don't be afraid to ask questions.** If you're not sure what to do on your turn, feel free to ask the Space Wizard or other players for help.
 * **Be strategic about your resource management.** Resources are essential for building settlements, cities, and developing technology. Plan ahead and make sure you're gathering the resources you need.
 * **Work together as a team.** Cooperation is essential for overcoming challenges and achieving your goals. Communicate with your teammates and coordinate your actions.
-* **Have fun!** Settlers of Mars - Space Wizard Adventure is a game, so make sure you're enjoying yourself. Don't be afraid to experiment with different strategies and have fun with the narrative elements of the game. 
+* **Have fun!** Settlers of Mars - Space Wizard Adventure is a game, so make sure you're enjoying yourself. Don't be afraid to experiment with different strategies and have fun with the narrative elements of the game.
 
+### Player/User response: "ok there's 4 of use, please create characters for us"
 
+***
 
-## Player/User response: "ok there's 4 of use, please create characters for us"
----
-
-Model response: 
-Here are four pre-generated characters that you can use to start playing Settlers of Mars - Space Wizard Adventure:
+Model response: Here are four pre-generated characters that you can use to start playing Settlers of Mars - Space Wizard Adventure:
 
 **Character 1: Dr. Lena Carter (Scientist)**
 
@@ -66,14 +70,13 @@ These characters represent a balanced team with a variety of skills and abilitie
 
 These backgrounds provide a starting point for your characters. You can develop their stories further as you play the game.
 
-Have fun exploring Mars and building a new home for humanity! 
+Have fun exploring Mars and building a new home for humanity!
 
+### Player / User prompt: Great, during the first turn we were all awarded with metal, oil and food resources. How does this help our launch and what challenge do we encounter?
 
-## Player / User prompt: Great, during the first turn we were all awarded with metal, oil and food resources. How does this help our launch and what challenge do we encounter? 
----
+***
 
-Model response: 
-**How the Resources Help Your Launch:**
+Model response: **How the Resources Help Your Launch:**
 
 * **Metal:** Metal is essential for building the spacecraft that will take you to Mars. It is also used to construct habitats and other structures on Mars.
 * **Oil:** Oil is used to power the spacecraft and other vehicles that will be used on Mars. It can also be used to generate electricity.
@@ -100,10 +103,12 @@ As you prepare for launch, you encounter a sudden meteor storm. The meteors are 
 
 **Your Choice:**
 
-How will you and your team overcome the meteor storm and ensure the success of your mission to Mars? 
+How will you and your team overcome the meteor storm and ensure the success of your mission to Mars?
 
+***
 
-___
-## Note: At this point i hesitated and ran out time. 
-## So it was Game over. Darn, i didn't even make it off planet!
-## Got to play this again some time ;-) 
+### Note: At this point i hesitated and ran out time.
+
+### So it was Game over. Darn, i didn't even make it off planet!
+
+### Got to play this again some time ;-)

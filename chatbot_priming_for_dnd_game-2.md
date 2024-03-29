@@ -1,8 +1,8 @@
 ---
-description: Game_mechanics_summary
+description: Game_mechanics_summary developed with assistance of Open AI GPT4.0.
 ---
 
-# ChatBot\_priming\_for\_DnD\_game
+# Level 2: Fine tuning gameplay mechanics ChatBot\_for\_DnD\_guide
 
 **"Settlers of Mars"** is a creative concept that integrates the mechanics of role-playing games like Dungeons & Dragons with the strategic gameplay of Settlers of Catan, all set within a Mars colonization theme. Here’s a concise structure to get your game started:
 
@@ -28,4 +28,4 @@ Establishing a self-sustaining colony. Successful terraforming efforts. Building
 
 This framework is highly adaptable and can be modified to fit various gameplay styles, ensuring a unique and engaging experience for all players involved in colonizing Mars.
 
-![Earth Rise From the Moon](../Images/SpaceX\_inpired\_settlers\_of\_mars\_montage.jpeg)
+![Image of mars city at variaous stages of development and the star ship launch facilty on earth. ](Images/SpaceX\_inpired\_settlers\_of\_mars\_montage.jpeg)

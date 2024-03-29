@@ -2,10 +2,10 @@
 description: >-
   This version used the NASA GeneLab overview page
   (https://genelab.nasa.gov/overview) to introduce the Rock and roll space
-  wizard to the GeneLab spacebiology solutions using the Google Gemini pro model
+  wizard to the GeneLab space biolog solutions using the Google Gemini pro model
 ---
 
-# Example: GeneLab\_radiation\_narrative
+# Level 4: GeneLab\_radiation\_narrative
 
 ***
 

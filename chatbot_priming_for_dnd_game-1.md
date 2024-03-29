@@ -1,6 +1,10 @@
-# ChatBot\_priming\_for\_DnD\_game
+---
+description: >-
+  The Space Wizard prompt i long and predefines the plays, provides guides for
+  each stage of the game/space adventure simulation.
+---
 
-Welcome to the Settlers of Mars - Space Wizard addition
+# Level 1: SpaceWizard ChatBot\_for\_DnD\_guide
 
 ## Settlers of Mars
 
