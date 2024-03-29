@@ -6,7 +6,7 @@ description: >-
 
 # Alternative Characters
 
-**Invent your characters**
+**Invent time devloping your characters to deepen the game play**
 
 1. **Space Wizard (Dungeon Master):** - Starts by describing the current situation on Earth as the team prepares for the launch. They might use an AI tool to generate a specific challenge. For example, "A critical component of the spacecraft is malfunctioning due to a software bug." - Rolls 2d6 dice introduces a random element to the challenge, like determining the severity of the software bug.
 2. **Graphic Designer:** - Uses an AI art generator to create an image that represents the current challenge, such as a visual of the spacecraft with an evident glitch or error message on the control panel.

@@ -1,6 +1,7 @@
 # Table of contents
 
 * [A new world awaits!](README.md)
+* [Board design using Dalle3 prome engineering example](<Prompt engineering/Readme.md>)
 * [Simple\_minimal\_lunatics\_game\_plan](Simple\_minimal\_game\_plan\_20\_page.md)
 * [Introduction to Characters in the 1st game cycle](characters.md)
 * [Alternative Characters](Characters/ReadMe.md)
@@ -10,7 +11,6 @@
 * [Level 3: ChatBot\_priming\_for\_DnD\_game](chatbot\_priming\_for\_dnd\_game-3.md)
 * [Level 4: GeneLab\_radiation\_narrative](example.md)
 * [Level 5: Settlers of Mars with space wizard guide](example-1.md)
-* [Example board layout](<Example board layout/readme.md>)
 * [Red Mars Mission Images for story board](Images/ReadMe.md)
-* [Board design using Dalle3 prome engineering example](<Prompt engineering/Readme.md>)
+* [Example board layout](<Example board layout/readme.md>)
 * [3D models shared as .STL files](<STL files/ReadMe.md>)
