@@ -24,7 +24,9 @@ Both games serve as dynamic educational platforms, addressing the untaught and i
 
 To get started playing "Settler of Mars" players can use any of the 3 games play templates designed to tailor chatbots to facilitate an original game plan. These prompt's can be used to train AI-GTP's to help guide you on your adventure, they can be customized to create a range of training scenarios.
 
-For example, feeding the chatbot this report on the future of European Space Exploration can create an ESA-related spin on the game narrative. https://www.espi.or.at/wp-content/uploads/2023/11/Future-of-European-Space-Exploration\_final-version-1.pdf
+For example, feeding the chatbot this report on the future of European Space Exploration can create an ESA-related spin on the game narrative.&#x20;
+
+{% embed url="https://www.espi.or.at/wp-content/uploads/2023/11/Future-of-European-Space-Exploration_final-version-1.pdf" %}
 
 More information on how to hide scientific discoveries in the gameplay is coming soon(ish)...
 
@@ -32,6 +34,12 @@ More information on how to hide scientific discoveries in the gameplay is coming
 
 ![Characters](Characters/space\_characters.webp)
 
-This pdf slide show can help you get started playing the Settlers of Mars role play adventure game. [Settlers of Mars AI training game action plan.pdf](https://github.com/dr-richard-barker/Settlers\_of\_Mars\_3D\_LLM/files/14726128/Settlers.of.Mars.AI.training.game.action.plan.pdf)
+This pdf slide show can help you get started playing the Settlers of Mars role-play adventure game.&#x20;
 
-You can down load and edit this .ppt slide show version can help you get started playing the Settlers of Mars role play adventure game. [Settlers of Mars AI training game action plan.pptx](https://github.com/dr-richard-barker/Settlers\_of\_Mars\_3D\_LLM/files/14726129/Settlers.of.Mars.AI.training.game.action.plan.pptx)
+[Settlers of Mars AI training game action plan.pdf](https://github.com/dr-richard-barker/Settlers\_of\_Mars\_3D\_LLM/files/14726128/Settlers.of.Mars.AI.training.game.action.plan.pdf)
+
+
+
+You can download and edit this .ppt slide show version can help you get started playing the Settlers of Mars role-play adventure game.&#x20;
+
+[Settlers of Mars AI training game action plan.pptx](https://github.com/dr-richard-barker/Settlers\_of\_Mars\_3D\_LLM/files/14726129/Settlers.of.Mars.AI.training.game.action.plan.pptx)
