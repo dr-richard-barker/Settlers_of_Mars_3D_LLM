@@ -24,6 +24,10 @@ Both games serve as dynamic educational platforms, addressing the untaught and i
 
 To get started playing "Settler of Mars" players can use any of the 3 games play templates designed to tailor chatbots to facilitate an original game plan. These prompt's can be used to train AI-GTP's to help guide you on your adventure, they can be customized to create a range of training scenarios.
 
+ Microsoft Copilot: A solid Dungeon Master that follows the D&D rules, with slight timekeeping issues.
+ Google Gemini: More of a story generator than a traditional roleplaying leader.
+ ChatGPT 3.5: A weaker system that ends adventures quickly with odd moments and lacks user stats.
+
 For example, feeding the chatbot this report on the future of European Space Exploration can create an ESA-related spin on the game narrative.&#x20;
 
 {% embed url="https://www.espi.or.at/wp-content/uploads/2023/11/Future-of-European-Space-Exploration_final-version-1.pdf" %}
