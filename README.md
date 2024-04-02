@@ -49,3 +49,7 @@ This pdf slide show can help you get started playing the Settlers of Mars role-p
 You can download and edit this .ppt slide show version can help you get started playing the Settlers of Mars role-play adventure game.&#x20;
 
 [Settlers of Mars AI training game action plan.pptx](https://github.com/dr-richard-barker/Settlers\_of\_Mars\_3D\_LLM/files/14726129/Settlers.of.Mars.AI.training.game.action.plan.pptx)
+
+For NASA's guide to LLM nad prompt engineering check out this awesome open science example
+https://github.com/NASA-IMPACT/LLM-cookbook-for-open-science
+
