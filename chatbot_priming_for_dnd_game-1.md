@@ -1,7 +1,7 @@
 ---
 description: >-
-  The Space Wizard prompt i long and predefines the plays, provides guides for
-  each stage of the game/space adventure simulation.
+  This first level the incorporation of a Space Wizard guides the adventures
+  predefines the each stage of the game/space adventure simulation.
 ---
 
 # Level 1: SpaceWizard ChatBot\_for\_DnD\_guide

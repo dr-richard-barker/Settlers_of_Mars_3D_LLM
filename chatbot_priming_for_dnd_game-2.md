@@ -1,5 +1,7 @@
 ---
-description: Game_mechanics_summary developed with assistance of Open AI GPT4.0.
+description: >-
+  This version of the Game mechanics has been summarised with assistance of
+  GPT4.0.
 ---
 
 # Level 2: Fine tuning gameplay mechanics ChatBot\_for\_DnD\_guide
@@ -28,4 +30,4 @@ Establishing a self-sustaining colony. Successful terraforming efforts. Building
 
 This framework is highly adaptable and can be modified to fit various gameplay styles, ensuring a unique and engaging experience for all players involved in colonizing Mars.
 
-![Image of mars city at variaous stages of development and the star ship launch facilty on earth. ](../Images/SpaceX\_inpired\_settlers\_of\_mars\_montage.jpeg)
+![Image of mars city at variaous stages of development and the star ship launch facilty on earth. ](Images/SpaceX\_inpired\_settlers\_of\_mars\_montage.jpeg)
