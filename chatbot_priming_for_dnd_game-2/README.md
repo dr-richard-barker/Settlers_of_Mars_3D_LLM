@@ -28,4 +28,4 @@ Establishing a self-sustaining colony. Successful terraforming efforts. Building
 
 This framework is highly adaptable and can be modified to fit various gameplay styles, ensuring a unique and engaging experience for all players involved in colonizing Mars.
 
-![Image of mars city at variaous stages of development and the star ship launch facilty on earth. ](Images/SpaceX\_inpired\_settlers\_of\_mars\_montage.jpeg)
+![Image of mars city at variaous stages of development and the star ship launch facilty on earth. ](../Images/SpaceX\_inpired\_settlers\_of\_mars\_montage.jpeg)
