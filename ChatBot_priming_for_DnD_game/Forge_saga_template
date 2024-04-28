@@ -1,0 +1,121 @@
+Create World
+Author: Richard Barker
+
+World Name
+
+Set Public
+
+Tags
+NOTE: Tags are used for associating the right types of images with your story. Less is more here, prefer using broad tags such as "sci-fi" or "fantasy" over highly specific tags.
+ADD TAG
+Workflow
+This controls the logic that will be used to play the game in your world. It also controls the allowed ratings available for your world.
+
+Rating
+This is the MPAA rating for this world.
+
+Writing Style
+What writing style do you want the narrator of this world to use? By default, the narrator will use a generic short story style.
+NOTE: The game works best in 3rd person, which is baked into the game engine. Don't try to alter the POV, as it can have undefined behavior.
+
+Thumbnail URL
+Upload
+Preview
+Drag File to Upload Here
+Lore Summary
+What makes this world unique? This paragraph will be included in every message for the narrator's context.
+
+Currency
+This is how currency will be referred to in this world. (Gold, Credits, etc.)... Will default to "gold" if left empty.
+
+Lorebook
+Think of this like the DM notes for your world. This is where you can write down all the details about locations, people, etc. that you want to seed into your adventures for this world. This will form the searchable database for your world details. Separate single entries with double newlines for best results.
+
+Lorebook to Large?
+If your lorebook exceeds the 50,000 character limit, you can upload a text file instead.
+Enable file upload
+
+Allowed Races
+NOTE: If left empty, the story will use generic fantasy races. (Human, Elf, Dwarf, etc.)
+Marty the Martian
+
+Name
+
+Description
+
+STR
+
+DEX
+
+WIS
+
+KARMA
+
+NOTE: The SUM of all race bonus stats needs to be less than or equal to 2. Or the game won't be permitted to start.
+Starting Gear
+
+
+ADD ITEM
+DELETE
+Starting Companion
+Companion Avatar
+
+
+
+
+ADD COMPANION
+Add Race
+Allowed Backgrounds
+NOTE: If left empty, the story will use generic fantasy backgrounds. (Noble, Soldier, etc.)
+Scientist
+
+Name
+
+Description
+
+STR
+
+DEX
+
+WIS
+
+KARMA
+
+NOTE: The SUM of all background bonus stats needs to be less than or equal to 4. Or the game won't be permitted to start.
+Starting Gear
+
+
+ADD ITEM
+DELETE
+Starting Companion
+Companion Avatar
+
+
+
+
+ADD COMPANION
+Farmer Joe
+
+Name
+
+Description
+
+STR
+
+DEX
+
+WIS
+
+KARMA
+
+NOTE: The SUM of all background bonus stats needs to be less than or equal to 4. Or the game won't be permitted to start.
+Starting Gear
+
+
+ADD ITEM
+DELETE
+Starting Companion
+Companion Avatar
+
+
+
