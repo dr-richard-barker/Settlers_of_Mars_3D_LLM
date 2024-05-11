@@ -14,3 +14,4 @@
 * [Level 5: Settlers of Mars with space wizard guide](example-1.md)
 * [Example board layout](<Example board layout/readme.md>)
 * [3D models shared as .STL files](<STL files/ReadMe.md>)
+* [AstroBotany board game](astrobotany-board-game.md)
