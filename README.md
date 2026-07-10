@@ -4,52 +4,130 @@ description: >-
   Mastery"
 ---
 
-# A new world awaits!
+# 🪐 Settlers of Mars
 
-Gone are the days when conventional games like chess or Pokémon Go were the peak of interactive learning. Now, imagine a world where the thrill of board games and role-playing adventures merge with educational prowess. Enter the realms of "Settlers of Mars" and "D\&D Role Player Adventure," games that are not just pastimes but powerful tools for advancing scientific knowledge and skills, particularly in space biology, biotechnology, and aerospace engineering.
+**Space-science through play.** A choose-your-own-adventure that blends
+**Settlers of Catan**, **Dungeons & Dragons**, and **SimCity** to teach space
+biology, biotechnology, and aerospace engineering. Play it three ways — in your
+browser, as an AI-guided tabletop role-play, or as a 3D-printed board.
 
-By blending the captivating elements of popular games with educational content, "Settlers of Mars" and "D\&D Role Player Adventure" stand as exemplary models of how gaming can revolutionize learning in science. They are not just games; they are gateways to mastering the complexities of space science, making learning an adventure that is as thrilling as it is informative.
+### ▶️ Website: <https://dr-richard-barker.github.io/Settlers_of_Mars_3D_LLM/>
 
-I hope you play Settlers of Mars with your friends, family, colleagues and anyone else you get to hang out with. This is a "choose your own adventure game" that can be indulged purply in the imagination using dungeons and dragon role play, or via a 2D or 3D board game based on the Settlers and Civilisation classics. Below is a poster by the original "Insight Wisconsin" inventors club team that made the prototype game we affectionately call "Settlers of Mars".
+> This README is the project's **single source of truth** — the running list of
+> ideas, goals, and loose ends so nothing gets lost. If you do something, tick
+> it. If you dream something up, add it under *Ideas*.
 
-![Poster showing the first test run of Settlers of Mars](Primary\_Poster\_Insight\_Wisconsin.jpeg)
+---
 
-Picture a scenario where a player, navigating to the harsh Martian landscape in "Settlers of Mars," learns about vital space biology concepts. Each settlement they build or resource they trade mirrors real-world biotechnological advancements and ecological balancing acts necessary for surviving on another planet. This game, inspired by the mechanics of the beloved Settlers of Catan, teaches players about resource management and ecological sustainability, crucial for any aspiring space biologist or biotechnologist.
+## The three ways to play
 
-On the other hand, "D\&D Role Player Adventure" takes players on a fantastical journey through the universe, where each quest and character interaction is a lesson in aerospace exploration and biotech engineering. Instead of navigating dungeons, we aim to explore our solar system, so appreciating the complexities of spacecraft design, and the dragons they defeat symbolize the overcoming of engineering challenges in space exploration. As players delve deeper into this role-playing world, they inadvertently learn about propulsion systems, space habitat dynamics, and the importance of teamwork in overcoming the astronomical odds associated with space exploration.
+| Mode | What it is | Where |
+|------|-----------|-------|
+| 🎮 **Browser colony sim** | *Lunar & Martian Frontier* — a standalone SimCity × Catan × Civ game. No sign-up, runs in-browser. | [Play now](https://dr-richard-barker.github.io/Lunar-and-Martian-frontier-game-prototype/) · [source repo](https://github.com/dr-richard-barker/Lunar-and-Martian-frontier-game-prototype) |
+| 🧙 **AI role-play** | Copy-paste prompts turn any chatbot into a "Space Wizard" Dungeon Master for a D&D-style mission to Mars. | [`roleplay.html`](roleplay.html) |
+| 🖨️ **Physical board** | Download STL files, 3D-print and paint the Martian terrain, lay out your hex map. | [`build.html`](build.html) |
 
-Both games serve as dynamic educational platforms, addressing the untaught and informal curriculum often missed in formal scientific education. They fill in the gaps left by traditional methods, offering a fun yet profound learning experience that is interactive and engaging. The collaborative nature of these games also mimics real-world scientific teamwork, teaching players the importance of collaboration, strategy, and critical thinking. So with creative and cooperative thinking, there are infinite ways to merge this dynamic gaming into an original educational experience.
+## The website (this repo → GitHub Pages)
 
-### How to play with an AI "DnD" chatbot guide
+Plain static HTML at the repo root — no build step. Deployed automatically by
+[`.github/workflows/pages.yml`](.github/workflows/pages.yml) on every push to `main`.
 
-To get started playing "Settler of Mars" players can use any of the 3 games play templates designed to tailor chatbots to facilitate an original game plan. These prompt's can be used to train AI-GTP's to help guide you on your adventure, they can be customized to create a range of training scenarios.
+| Page | Purpose |
+|------|---------|
+| [`index.html`](index.html) | Home — the vision and the two paths (play / build) |
+| [`play.html`](play.html) | Embeds the live browser game + intro to the tabletop role-play |
+| [`roleplay.html`](roleplay.html) | Character roles + copy-paste AI Dungeon-Master prompts (Levels 1–5) |
+| [`build.html`](build.html) | STL downloads, 3D-printing steps, AI board-art generation, layout gallery |
+| [`about.html`](about.html) | Story, credits, license, how to cite, roadmap |
 
- Microsoft Copilot: A solid Dungeon Master that follows the D&D rules, with slight timekeeping issues.
- 
- Google Gemini: More of a story generator than a traditional roleplaying leader.
- 
- ChatGPT 3.5: A weaker system that ends adventures quickly with odd moments and lacks user stats.
+## Repo map
 
-For example, feeding the chatbot this report on the future of European Space Exploration can create an ESA-related spin on the game narrative.&#x20;
+```
+Settlers_of_Mars_3D_LLM/
+├── index.html  play.html  roleplay.html  build.html  about.html   # the website
+├── 404.html   .nojekyll                                           # Pages plumbing
+├── assets/css/site.css   assets/js/site.js                        # shared theme + behaviour
+├── .github/workflows/pages.yml                                    # auto-deploy to Pages
+│
+├── STL files/                # 3D-printable board pieces (Olympus Mons, Valles Marineris,
+│                             #   Gale Crater, Ice Caps, Dome) + board photos
+├── Example board layout/     # example hex-map layouts (real + AI-generated)
+├── Prompt engineering/       # DALL·E board-art prompts + results
+├── Characters/               # character art + role descriptions
+├── Images/                   # story-board imagery (Mars, Moon, montages)
+├── ChatBot_priming_for_DnD_game/   # long-form DM priming templates
+├── templates/                # AI-studio Gemini prompt notebook
+├── chatbot_priming_for_dnd_game-*.md  example*.md   # 5 levels of DM prompts + playthroughs
+├── astrobotany-board-game.md  characters.md  Simple_minimal_game_plan_20_page.md
+├── SUMMARY.md                # GitBook table of contents (legacy)
+│
+├── README.md                 # ← you are here (project tracker)
+├── PUBLISHING.md             # GitHub Pages + Zenodo release checklist
+├── CITATION.cff  .zenodo.json  LICENSE   # citation + archive metadata (CC-BY-4.0)
+```
 
-{% embed url="https://www.espi.or.at/wp-content/uploads/2023/11/Future-of-European-Space-Exploration_final-version-1.pdf" %}
+---
 
-More information on how to hide scientific discoveries in the gameplay is coming soon(ish)...
+## 🎯 Goals
 
-**Note:** It is more fun having a real character on your team, but having a well-trained AI-space wizard can help the gameplay and storyboard synthesis occur in a fun and informative fashion.
+1. **One website** where anyone can arrive and immediately either *play* the game
+   or *learn to build* it.
+2. **Lower every barrier to entry** — browser game for zero-setup players, AI
+   guide for people new to D&D, printable board for makers, paper board for
+   everyone else.
+3. **Smuggle in real science** — every mechanic maps to a genuine space-biology,
+   biotech, or engineering challenge.
+4. **Be citable and reusable** — open license + Zenodo DOI so educators can
+   reference and remix it.
 
-![Characters](Characters/space\_characters.webp)
+## ✅ Roadmap / loose-end tracker
 
-This pdf slide show can help you get started playing the Settlers of Mars role-play adventure game.&#x20;
+### Done
+- [x] Browser colony sim (*Lunar & Martian Frontier*) built and deployed
+- [x] 3D-printable STL board pieces
+- [x] Five levels of AI "Space Wizard" Dungeon-Master prompts + example playthroughs
+- [x] Example board layouts + DALL·E board-art prompt-engineering examples
+- [x] **GitHub Pages website** (this hub: play / role-play / build / about)
+- [x] **Zenodo-ready metadata** — `LICENSE` (CC-BY-4.0), `CITATION.cff`, `.zenodo.json`, `PUBLISHING.md`
 
-[Settlers of Mars AI training game action plan.pdf](https://github.com/dr-richard-barker/Settlers\_of\_Mars\_3D\_LLM/files/14726128/Settlers.of.Mars.AI.training.game.action.plan.pdf)
+### In progress / to confirm (the actual loose ends)
+- [ ] **Enable Pages** in *Settings → Pages → Source: GitHub Actions* (see [PUBLISHING.md](PUBLISHING.md))
+- [ ] **Credit the original Insight Wisconsin students** as co-creators in `CITATION.cff` + `.zenodo.json` (check consent for minors)
+- [ ] **Add real ORCID** + confirmed release date in `CITATION.cff`
+- [ ] **Flip on the Zenodo–GitHub integration** and cut a `v1.0.0` release to mint a DOI; add the DOI badge here
+- [ ] **Verify the embedded game loads** inside `play.html`'s iframe (some browsers block cross-origin embeds — a fallback "open full-screen" link is provided)
+- [ ] Confirm the two PDF/PPTX action-plan downloads still resolve (they point at old GitHub `/files/` upload URLs) and re-host in-repo if broken
 
+### 💡 Ideas (someday / maybe)
+- [ ] Printable **rulebook PDF** + a one-page quick-start
+- [ ] **Classroom lesson plans** mapping each stage to a curriculum standard
+- [ ] A **community gallery** of player-made boards, characters, and mission stories (issue template or a submissions page)
+- [ ] Deeper **space-biology tie-ins** — use real NASA GeneLab / OSDR datasets as in-game "discoveries"
+- [ ] **Print-and-play** paper board (PDF) for players without a 3D printer
+- [ ] Short **demo video / GIF** of the browser game for the home page
+- [ ] Package the DM prompts as a shareable **custom GPT / assistant**
+- [ ] Tighten spelling/typos in the legacy markdown lore files
 
+---
 
-You can download and edit this .ppt slide show version can help you get started playing the Settlers of Mars role-play adventure game.&#x20;
+## Run the site locally
 
-[Settlers of Mars AI training game action plan.pptx](https://github.com/dr-richard-barker/Settlers\_of\_Mars\_3D\_LLM/files/14726129/Settlers.of.Mars.AI.training.game.action.plan.pptx)
+It's plain static HTML — just open `index.html`, or serve the folder:
 
-For NASA's guide to LLM nad prompt engineering check out this awesome open science example
-https://github.com/NASA-IMPACT/LLM-cookbook-for-open-science
+```bash
+python -m http.server 8000   # then visit http://localhost:8000
+```
 
+## License & citation
+
+Creative content (designs, art, STL, text, prompts) is **CC BY 4.0**; any code is
+also **MIT**. See [`LICENSE`](LICENSE). To cite, see [`CITATION.cff`](CITATION.cff)
+or the "How to cite" section on [`about.html`](about.html).
+
+## Credits
+
+Created by **Dr Richard Barker** on behalf of
+[The Collaborative Science Environment](https://www.cosecloud.com), building on
+the original **Insight Wisconsin** inventors'-club prototype. An independent
+**educational** project — not affiliated with or endorsed by NASA, ESA, or the
+makers of Settlers of Catan or Dungeons & Dragons.

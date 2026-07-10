@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI role-play guide — Settlers of Mars</title>
+<meta name="description" content="Copy-paste prompts that turn any chatbot into a Space Wizard Dungeon Master for the Settlers of Mars role-play adventure.">
+<link rel="stylesheet" href="assets/css/site.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🪐</text></svg>">
+</head>
+<body>
+<header class="site-header">
+  <nav class="nav">
+    <a class="brand" href="index.html"><span class="dot">🪐</span><span>Settlers of Mars<small>Space-science through play</small></span></a>
+    <button class="nav-toggle" aria-label="Menu">☰</button>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="play.html">Play the game</a>
+      <a href="roleplay.html">AI role-play</a>
+      <a href="build.html">Build the board</a>
+      <a href="about.html">About</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section class="hero wrap" style="padding-bottom:24px">
+    <span class="eyebrow">🧙 AI Dungeon Master</span>
+    <h1>Turn any chatbot into a <span class="glow">Space Wizard</span></h1>
+    <p class="lead">No D&amp;D experience needed. Copy a priming prompt below into ChatGPT, Claude, Copilot, or Gemini, gather your crew, and let the AI guide your mission to Mars.</p>
+  </section>
+
+  <!-- How it works -->
+  <section class="wrap">
+    <div class="section-head">
+      <span class="kicker">How it works</span>
+      <h2>Three steps to launch</h2>
+    </div>
+    <div class="steps prose">
+      <div class="step"><div class="n"></div><div><h4>Pick your crew &amp; roles</h4><p>Each player takes a role (see the table below). One player is the human backup for the Space Wizard; the AI does the heavy lifting of narration and dice.</p></div></div>
+      <div class="step"><div class="n"></div><div><h4>Prime your chatbot</h4><p>Copy the <strong>Level&nbsp;1 Space Wizard prompt</strong> into a fresh chat. The bot becomes your Dungeon Master, ready to stage challenges and narrate outcomes.</p></div></div>
+      <div class="step"><div class="n"></div><div><h4>Play through the stages</h4><p>Roll 2d6 at each stage — resource-gathering, launch, cryosleep, landing, farming, radiation storms. Each player uses AI tools to contribute; the Space Wizard narrates and sets up the next turn.</p></div></div>
+    </div>
+  </section>
+
+  <!-- Roles -->
+  <section class="wrap">
+    <div class="section-head">
+      <span class="kicker">Your crew</span>
+      <h2>Seven roles, one mission</h2>
+      <p>Customising your characters is itself a form of prompt engineering — choose your words carefully.</p>
+    </div>
+    <div class="card prose" style="max-width:900px">
+      <table>
+        <thead><tr><th>Role</th><th>What they do</th><th>Handy AI tools</th></tr></thead>
+        <tbody>
+          <tr><td>🧙 <strong>Space Wizard</strong> (DM)</td><td>Generates each challenge, rolls 2d6, narrates outcomes</td><td>ChatGPT, Claude, Copilot, Gemini</td></tr>
+          <tr><td>🎨 <strong>Graphic Designer</strong></td><td>Makes an image for each turn &amp; designs habitats</td><td>DALL·E, Firefly, NightCafe</td></tr>
+          <tr><td>🩺 <strong>Medical Team Lead</strong></td><td>Summarises how to keep the crew healthy under stress</td><td>Any chatbot</td></tr>
+          <tr><td>💻 <strong>Coder</strong></td><td>Drafts code/pseudo-code to solve the turn's problem</td><td>Perplexity, Copilot, Claude</td></tr>
+          <tr><td>📚 <strong>Librarian</strong></td><td>Mines the literature for real precedents &amp; protocols</td><td>Elicit, Perplexity</td></tr>
+          <tr><td>🎖️ <strong>Military Team Lead</strong></td><td>Collates everyone's input into a turn-summary plan</td><td>Whiteboard + any chatbot</td></tr>
+          <tr><td>🌱 <strong>Farmer &amp; Scientist</strong></td><td>Sizes the habitat &amp; farm, runs experiments</td><td><a href="https://ngs.simoc.space/">SIMOC</a></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Level 1 prompt -->
+  <section class="wrap prose">
+    <div class="section-head">
+      <span class="kicker">Level 1 · The core prompt</span>
+      <h2>Prime your Space Wizard</h2>
+      <p>Paste this into a fresh chat to begin. It sets the goal, the roles, the stages, and the dice mechanics.</p>
+    </div>
+
+    <div class="prompt">
+      <div class="bar"><strong>🧙 Space Wizard — system prompt</strong><button class="copy">Copy</button></div>
+<pre>You are the "Space Wizard" — the Dungeon Master for an educational role-playing game called "Settlers of Mars". It blends Dungeons &amp; Dragons storytelling with the turn-based resource mechanics of Settlers of Catan, set in the near future as humanity colonises the Moon and Mars.
+
+YOUR JOB:
+- Guide a team of players on a mission from Earth to Mars and back.
+- At each stage, present a vivid but concise challenge (technical, environmental, medical, social, or political).
+- Ask the players to roll 2d6 and weave the result into how severe or lucky the outcome is.
+- Give each player a role and invite their contribution before you narrate the result, then set up the next stage.
+- Keep it educational: ground challenges in real space biology, biotechnology, and aerospace engineering. Briefly explain the real science behind each event.
+- Track a simple scoreboard of resources (water, food, oxygen, power, materials) and victory points.
+
+THE PLAYERS AND THEIR ROLES:
+1. Space Wizard (me / a human co-DM) — narrates and rolls.
+2. Graphic Designer — describes/generates an image for the turn.
+3. Medical Team Lead — keeps the crew healthy.
+4. Coder — proposes code or algorithms to solve problems.
+5. Librarian — cites real precedents and protocols.
+6. Military Team Lead — collates input into a plan.
+7. Farmer &amp; Scientist — sizes the habitat and farm, runs experiments.
+
+CHARACTER CREATION:
+Ask each player to name their character and distribute 35 points across: Science, Engineering, Medicine, Agriculture, Leadership, Intelligence, and one of their choice. Use these to weight dice rolls.
+
+THE STAGES (advance through these, one challenge each):
+1. Resource gathering on Earth — build toward a spacecraft.
+2. Launch — a critical, high-stakes moment.
+3. Travel to the Moon (≈3 days, cryosleep).
+4. Landing on the Moon — experiments, samples, base camp.
+5. Travel to Mars (≈9 months, cryosleep).
+6. Landing on Mars — establish a base.
+7. Living on Mars — build a water mine and start farming.
+8. (Optional) Travel back to Earth and return as heroes.
+
+DYNAMIC EVENTS (introduce with dice, like Catan's robber):
+Martian dust storms block resource production; solar flares and radiation waves threaten the crew; equipment malfunctions; possible alien encounters.
+
+VICTORY:
+Players earn points by building settlements, cities, and trade routes, and by terraforming Mars (planting, water, canals). The game ends when a self-sustaining settlement is established — then the players decide what kind of society they've built.
+
+START NOW:
+Greet the crew, ask each player for their character name and point allocation, then describe the scene on Earth as launch preparations begin. Present the first challenge and ask for a 2d6 roll.</pre>
+    </div>
+
+    <h3>Level 2 · Quick-start (short version)</h3>
+    <p>Short on time? This condensed prompt gets a game going in one paste.</p>
+    <div class="prompt">
+      <div class="bar"><strong>⚡ Quick-start prompt</strong><button class="copy">Copy</button></div>
+<pre>Be the "Space Wizard" Dungeon Master for "Settlers of Mars", a game mixing D&amp;D storytelling with Settlers of Catan mechanics, themed around colonising Mars. Walk our team through these stages, one challenge each: resource-gathering on Earth, launch, travel to the Moon, landing on the Moon, travel to Mars, landing on Mars, and living on Mars. For each stage: describe a challenge grounded in real space science, ask us to roll 2d6, and narrate the outcome based on the roll. Track water, food, oxygen, power, and materials. Use Martian dust storms as random setbacks. Keep it fun, collaborative, and educational. Start by asking each of us to name our character and their main skill.</pre>
+    </div>
+
+    <div class="callout">
+      <strong>Level 3–5: worked examples.</strong> Longer transcripts show a full Gemini playthrough, a GeneLab radiation narrative, and an advanced Space-Wizard session. Read them on GitHub:
+      <a href="https://github.com/dr-richard-barker/Settlers_of_Mars_3D_LLM/blob/main/chatbot_priming_for_dnd_game-3.md">Level 3 (Gemini)</a> ·
+      <a href="https://github.com/dr-richard-barker/Settlers_of_Mars_3D_LLM/blob/main/example.md">Level 4 (GeneLab radiation)</a> ·
+      <a href="https://github.com/dr-richard-barker/Settlers_of_Mars_3D_LLM/blob/main/example-1.md">Level 5 (advanced)</a>
+    </div>
+
+    <h3>Add a real-science twist</h3>
+    <p>Feed your Space Wizard a real research report to theme the narrative — for example NASA's <a href="https://github.com/NASA-IMPACT/LLM-cookbook-for-open-science">LLM cookbook for open science</a>, or an ESA exploration roadmap — to hide genuine discoveries inside the gameplay. Model your habitat and farm sizes in <a href="https://ngs.simoc.space/">SIMOC</a> for extra realism.</p>
+  </section>
+
+  <section class="wrap">
+    <div class="card" style="text-align:center; background:linear-gradient(135deg, rgba(226,104,60,.18), rgba(138,108,207,.14));">
+      <h2 style="margin-top:0">Want a board to play on?</h2>
+      <p style="color:var(--ink-soft); max-width:560px; margin:0 auto 22px">3D-print the terrain pieces and lay out your own Martian hex map.</p>
+      <a class="btn btn-primary btn-lg" href="build.html">🖨️ Build the board →</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap cols">
+    <div><strong>Settlers of Mars</strong> &nbsp;·&nbsp; Space-science through play</div>
+    <div><a href="https://github.com/dr-richard-barker/Settlers_of_Mars_3D_LLM">GitHub</a> &nbsp;·&nbsp; <a href="about.html">Cite &amp; license</a></div>
+  </div>
+</footer>
+<script src="assets/js/site.js"></script>
+</body>
+</html>

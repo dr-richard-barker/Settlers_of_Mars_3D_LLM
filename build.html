@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Build the board — Settlers of Mars</title>
+<meta name="description" content="Download 3D-printable STL files, print and paint the Martian terrain pieces, lay out your hex board, and generate custom AI board art.">
+<link rel="stylesheet" href="assets/css/site.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🪐</text></svg>">
+</head>
+<body>
+<header class="site-header">
+  <nav class="nav">
+    <a class="brand" href="index.html"><span class="dot">🪐</span><span>Settlers of Mars<small>Space-science through play</small></span></a>
+    <button class="nav-toggle" aria-label="Menu">☰</button>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="play.html">Play the game</a>
+      <a href="roleplay.html">AI role-play</a>
+      <a href="build.html">Build the board</a>
+      <a href="about.html">About</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section class="hero wrap" style="padding-bottom:24px">
+    <span class="eyebrow">🖨️ Maker guide</span>
+    <h1>Print, paint &amp; build your <span class="glow">Martian board</span></h1>
+    <p class="lead">The physical board is a hands-on lesson in additive manufacturing and game design. Download the 3D models, print the terrain, and lay out your own hex map — then generate custom AI board art to make it yours.</p>
+  </section>
+
+  <!-- Steps -->
+  <section class="wrap">
+    <div class="section-head">
+      <span class="kicker">The build</span>
+      <h2>From STL to tabletop in four steps</h2>
+    </div>
+    <div class="steps prose">
+      <div class="step"><div class="n"></div><div><h4>Download the STL files</h4><p>Grab the Martian &amp; Lunar terrain models below. STL is the standard 3D-printing format — open it in any slicer (Cura, PrusaSlicer, Bambu Studio).</p></div></div>
+      <div class="step"><div class="n"></div><div><h4>Slice &amp; print</h4><p>Import into your slicer, scale to taste, and print. Simple terrain pieces need no supports; the Dome may want a few. PLA is perfect for painting.</p></div></div>
+      <div class="step"><div class="n"></div><div><h4>Paint the terrain</h4><p>Rust-red for Mars, greys for the Moon, blue for water/ice. Painting is where the science sinks in — each colour maps to a resource type.</p></div></div>
+      <div class="step"><div class="n"></div><div><h4>Lay out the hex map</h4><p>Arrange tiles into a Catan-style hex board. Each terrain yields a different resource — see the example layouts below for inspiration.</p></div></div>
+    </div>
+  </section>
+
+  <!-- STL downloads -->
+  <section class="wrap">
+    <div class="section-head">
+      <span class="kicker">3D models</span>
+      <h2>Printable STL files</h2>
+      <p>Five Martian landmarks and a habitat dome, ready to slice and print.</p>
+    </div>
+    <div class="grid cols-2" style="align-items:center; margin-bottom:26px">
+      <figure class="frame"><img src="STL%20files/Settlers_of_Mars_Real_Board.png" alt="A real 3D-printed Settlers of Mars board" loading="lazy"></figure>
+      <figure class="frame"><img src="STL%20files/Settlers_of_Mars_Board_Game_V1.JPG" alt="Settlers of Mars board game version 1" loading="lazy"></figure>
+    </div>
+    <div class="grid cols-3">
+      <div class="card link-card"><span class="ico">🏔️</span><h3>Olympus Mons</h3><p>The tallest volcano in the solar system.</p><a class="btn btn-ghost" href="STL%20files/Mars-Olympus%20Mons.STL" download>⬇ Download STL</a></div>
+      <div class="card link-card"><span class="ico">🏜️</span><h3>Valles Marineris</h3><p>The great Martian canyon system.</p><a class="btn btn-ghost" href="STL%20files/Mars-Valles%20Marineris.STL" download>⬇ Download STL</a></div>
+      <div class="card link-card"><span class="ico">🕳️</span><h3>Gale Crater</h3><p>Curiosity's landing site.</p><a class="btn btn-ghost" href="STL%20files/Mars-Gale%20Crater.STL" download>⬇ Download STL</a></div>
+      <div class="card link-card"><span class="ico">❄️</span><h3>Ice Caps</h3><p>Polar water ice — your colony's lifeline.</p><a class="btn btn-ghost" href="STL%20files/Mars-Ice%20Caps.STL" download>⬇ Download STL</a></div>
+      <div class="card link-card"><span class="ico">🛖</span><h3>Habitat Dome</h3><p>A pressurised settlement dome.</p><a class="btn btn-ghost" href="STL%20files/Dome.STL" download>⬇ Download STL</a></div>
+      <div class="card link-card"><span class="ico">📦</span><h3>All files</h3><p>Browse every STL in the repo.</p><a class="btn btn-ghost" href="https://github.com/dr-richard-barker/Settlers_of_Mars_3D_LLM/tree/main/STL%20files" target="_blank" rel="noopener">↗ View on GitHub</a></div>
+    </div>
+    <div class="callout">
+      <strong>No printer?</strong> Many libraries, schools, and makerspaces have one. You can also adapt an official <a href="https://catanshop.com/catan-3d" target="_blank" rel="noopener">Catan 3D</a> set, browse community models on <a href="https://www.yeggi.com/q/settlers+of+catan/" target="_blank" rel="noopener">Yeggi</a>, or just draw the board on paper — the game works with any hex map.
+    </div>
+  </section>
+
+  <!-- AI board art -->
+  <section class="wrap">
+    <div class="section-head">
+      <span class="kicker">Make it yours</span>
+      <h2>Generate custom board art with AI</h2>
+      <p>Photograph your printed board, then use an image model (DALL·E, Firefly, NightCafe) to reimagine it with a futuristic space theme. It's a gentle introduction to prompt engineering.</p>
+    </div>
+    <div class="grid cols-2" style="align-items:center">
+      <figure class="frame">
+        <img src="Prompt%20engineering/AI_enhanced_board.jpeg" alt="An AI-enhanced Settlers of Mars board" loading="lazy">
+        <figcaption>A 3D-printed board reimagined by an image model.</figcaption>
+      </figure>
+      <div class="prompt">
+        <div class="bar"><strong>🎨 Example DALL·E prompt</strong><button class="copy">Copy</button></div>
+<pre>Create a hyper-detailed 3D image of a game board similar to "Settlers of Catan", laid out like the photo I provide, but with a futuristic space theme. Include seven hexagonal tiles plus a moon piece, a space-station piece, and a Mars piece:
+1. A blue tile with a yellow house and a white question mark — a water planet with a hidden feature.
+2. A blue tile with wave patterns — an oceanic planet.
+3. A reddish-brown tile with rough, Mars-like terrain.
+4. A black tile — the darkness of outer space.
+5. A green tile with a white crescent-moon piece — a moon biome with sheep-like aliens.
+6. A grey tile with a space-station piece — an asteroid mining colony.
+7. A forest-green tile with alien trees — an exoplanet forest biome.
+Keep the layout and tile proximity like the original photo, with added elements to enhance the space theme.</pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- Layout gallery -->
+  <section class="wrap">
+    <div class="section-head">
+      <span class="kicker">Inspiration</span>
+      <h2>Example board layouts</h2>
+      <p>Each tile's colour and shape maps to a material or function. Mix and remix — there's no single "correct" board.</p>
+    </div>
+    <div class="gallery">
+      <img src="Example%20board%20layout/AI_board_V1.webp" alt="AI-generated board layout v1" loading="lazy">
+      <img src="Example%20board%20layout/AI_Board_twist.webp" alt="AI board layout with abstraction" loading="lazy">
+      <img src="Example%20board%20layout/Mars_space_sea_mountain_forest_sheep_quarry.jpeg" alt="Mars board with sea, mountain, forest, quarry" loading="lazy">
+      <img src="Example%20board%20layout/Moon_sea_mountain_forest_fields_sheep_seaport.jpeg" alt="Moon board layout" loading="lazy">
+      <img src="Example%20board%20layout/mars_ice_hills_mountains_sea_field_quarry.jpeg" alt="Mars board with ice, hills, mountains" loading="lazy">
+      <img src="Images/Settlers_of_the_moon_board_V3.jpeg" alt="Settlers of the Moon board v3" loading="lazy">
+    </div>
+    <p style="text-align:center; margin-top:20px">
+      <a class="btn btn-ghost" href="https://github.com/dr-richard-barker/Settlers_of_Mars_3D_LLM/tree/main/Example%20board%20layout" target="_blank" rel="noopener">↗ See all layouts on GitHub</a>
+    </p>
+  </section>
+
+  <section class="wrap">
+    <div class="card" style="text-align:center; background:linear-gradient(135deg, rgba(226,104,60,.18), rgba(138,108,207,.14));">
+      <h2 style="margin-top:0">Board's built — now play</h2>
+      <p style="color:var(--ink-soft); max-width:560px; margin:0 auto 22px">Gather your crew and let an AI Space Wizard guide your first mission.</p>
+      <a class="btn btn-primary btn-lg" href="roleplay.html">🧙 Start the role-play →</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap cols">
+    <div><strong>Settlers of Mars</strong> &nbsp;·&nbsp; Space-science through play</div>
+    <div><a href="https://github.com/dr-richard-barker/Settlers_of_Mars_3D_LLM">GitHub</a> &nbsp;·&nbsp; <a href="about.html">Cite &amp; license</a></div>
+  </div>
+</footer>
+<script src="assets/js/site.js"></script>
+</body>
+</html>

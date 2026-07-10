@@ -1,0 +1,43 @@
+{
+  "title": "Settlers of Mars & D&D Role Player Adventure: The Gateway to Space Science Mastery",
+  "description": "<p>An open educational game that blends the resource-management mechanics of Settlers of Catan with Dungeons &amp; Dragons role-play and a browser colony sim, to teach space biology, biotechnology, and aerospace engineering. Includes 3D-printable board pieces (STL), AI &quot;Space Wizard&quot; Dungeon-Master prompt templates, example board layouts, and a companion browser game (Lunar &amp; Martian Frontier).</p><p>Playable and documented at https://dr-richard-barker.github.io/Settlers_of_Mars_3D_LLM/</p>",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "creators": [
+    {
+      "name": "Barker, Richard",
+      "affiliation": "The Collaborative Science Environment (cosecloud.com)"
+    }
+  ],
+  "keywords": [
+    "space biology",
+    "STEM education",
+    "serious games",
+    "board game",
+    "3D printing",
+    "role-playing game",
+    "Mars colonization",
+    "prompt engineering",
+    "large language models",
+    "astrobotany"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/dr-richard-barker/Settlers_of_Mars_3D_LLM",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://dr-richard-barker.github.io/Settlers_of_Mars_3D_LLM/",
+      "relation": "isIdenticalTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/dr-richard-barker/Lunar-and-Martian-frontier-game-prototype",
+      "relation": "references",
+      "scheme": "url"
+    }
+  ],
+  "notes": "An independent educational project. Not affiliated with or endorsed by NASA, ESA, or the makers of Settlers of Catan or Dungeons & Dragons. TODO before minting: credit the original Insight Wisconsin inventors'-club students as creators (check consent for minors)."
+}

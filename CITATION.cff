@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use Settlers of Mars in teaching or research, please cite it as below."
+title: "Settlers of Mars & D&D Role Player Adventure: The Gateway to Space Science Mastery"
+abstract: >-
+  An open educational game that blends the resource-management mechanics of
+  Settlers of Catan with Dungeons & Dragons role-play and a browser colony sim,
+  to teach space biology, biotechnology, and aerospace engineering. Includes
+  3D-printable board pieces (STL), AI "Space Wizard" Dungeon-Master prompt
+  templates, example board layouts, and a companion browser game (Lunar &
+  Martian Frontier).
+type: software
+authors:
+  - family-names: Barker
+    given-names: Richard
+    affiliation: "The Collaborative Science Environment (cosecloud.com)"
+    email: "dr.richard.barker@gmail.com"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"   # TODO: add your real ORCID
+# TODO: credit the original Insight Wisconsin inventors'-club students here
+#       (add one author block each; check consent for minors).
+repository-code: "https://github.com/dr-richard-barker/Settlers_of_Mars_3D_LLM"
+url: "https://dr-richard-barker.github.io/Settlers_of_Mars_3D_LLM/"
+license: CC-BY-4.0
+keywords:
+  - space biology
+  - STEM education
+  - serious games
+  - board game
+  - 3D printing
+  - role-playing game
+  - Mars colonization
+  - prompt engineering
+  - large language models
+  - astrobotany
+version: "1.0.0"
+# TODO: set date-released to the date you mint the Zenodo release (YYYY-MM-DD)
+date-released: "2026-07-09"

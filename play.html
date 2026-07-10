@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Play — Settlers of Mars</title>
+<meta name="description" content="Play the Lunar & Martian Frontier colony sim in your browser, or start a D&D-style role-play adventure guided by an AI Space Wizard.">
+<link rel="stylesheet" href="assets/css/site.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🪐</text></svg>">
+</head>
+<body>
+<header class="site-header">
+  <nav class="nav">
+    <a class="brand" href="index.html"><span class="dot">🪐</span><span>Settlers of Mars<small>Space-science through play</small></span></a>
+    <button class="nav-toggle" aria-label="Menu">☰</button>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="play.html">Play the game</a>
+      <a href="roleplay.html">AI role-play</a>
+      <a href="build.html">Build the board</a>
+      <a href="about.html">About</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section class="hero wrap" style="padding-bottom:24px">
+    <span class="eyebrow">🎮 Play now</span>
+    <h1>Two ways to <span class="glow">play</span></h1>
+    <p class="lead">Boot up the browser colony sim for a solo strategy game, or gather a crew and run a collaborative D&amp;D-style adventure with an AI Space Wizard as your guide.</p>
+  </section>
+
+  <!-- Browser game -->
+  <section class="wrap">
+    <div class="section-head">
+      <span class="kicker">Option 1 · Solo / screen</span>
+      <h2>🚀 Lunar &amp; Martian Frontier — the colony sim</h2>
+      <p>A standalone sandbox that blends SimCity, Catan, and Civilization. Runs entirely in your browser — no sign-up, no API keys, no downloads. Best on a desktop with a mouse.</p>
+    </div>
+
+    <div class="game-embed">
+      <iframe src="https://dr-richard-barker.github.io/Lunar-and-Martian-frontier-game-prototype/"
+              title="Lunar & Martian Frontier colony sim"
+              loading="lazy"
+              allow="fullscreen"></iframe>
+    </div>
+    <p style="text-align:center; margin-top:14px">
+      <a class="btn btn-primary" href="https://dr-richard-barker.github.io/Lunar-and-Martian-frontier-game-prototype/" target="_blank" rel="noopener">↗ Open the game full-screen</a>
+    </p>
+
+    <div class="grid cols-3" style="margin-top:34px">
+      <div class="card"><span class="ico">🏙️</span><h3>Grow a colony</h3><p>Train rover crews and shuttle colonists from Earth. Nothing builds itself — rovers physically drive out and construct every structure.</p></div>
+      <div class="card"><span class="ico">🎲</span><h3>Catan-style yields</h3><p>Every hex carries a 2–12 number token. Two dice roll each sol; matching tiles surge and yield double. A 7 triggers a colony event.</p></div>
+      <div class="card"><span class="ico">🫁</span><h3>Life-support loop</h3><p>Colonists burn food, water, and oxygen every sol. Extract ice, make air, grow food, keep the power grid ahead of demand — or everything throttles.</p></div>
+      <div class="card"><span class="ico">🛤️</span><h3>Maglev network</h3><p>Structures only work next to the Hub or a connected track. Cut the line and everything downstream goes offline.</p></div>
+      <div class="card"><span class="ico">⚔️</span><h3>Rival AI colonies</h3><p>Up to three AI factions land beside you — traders, racers, and agrarians — each with its own strategy and colours.</p></div>
+      <div class="card"><span class="ico">🤖</span><h3>Autoplay &amp; stats</h3><p>Hit AUTOPLAY to watch an AI director build the base, or open the dashboard to graph every colony's growth over time.</p></div>
+    </div>
+  </section>
+
+  <!-- Tabletop / role-play -->
+  <section class="wrap">
+    <div class="section-head">
+      <span class="kicker">Option 2 · Team / imagination</span>
+      <h2>🧙 The D&amp;D-style role-play adventure</h2>
+      <p>Gather a crew (in person or online), give everyone a role, and let an AI "Space Wizard" act as your Dungeon Master. You can play it purely in the imagination, or over a 2D / 3D board.</p>
+    </div>
+
+    <div class="grid cols-2" style="align-items:center">
+      <figure class="frame">
+        <img src="Characters/space_characters_6_people_3D.webp" alt="A team of space colonist characters" loading="lazy">
+      </figure>
+      <div>
+        <p style="color:var(--ink-soft)">Each player takes a role — Space Wizard (Dungeon Master), Graphic Designer, Medical Lead, Coder, Librarian, Military Lead, Farmer &amp; Scientist — and uses AI tools to contribute to each turn. Roll 2d6, face a challenge, and decide together how your mission to Mars unfolds.</p>
+        <ul style="color:var(--ink-soft)">
+          <li>Design your own character and their strengths</li>
+          <li>Face staged challenges: launch, cryosleep, landing, farming, radiation storms</li>
+          <li>The Space Wizard narrates outcomes and sets up the next turn</li>
+        </ul>
+        <a class="btn btn-primary" href="roleplay.html">Get the AI Space-Wizard guide →</a>
+      </div>
+    </div>
+
+    <div class="callout" style="margin-top:26px">
+      <strong>New to role-play?</strong> No problem. The <a href="roleplay.html">AI role-play guide</a> gives you copy-paste prompts that turn any modern chatbot (ChatGPT, Copilot, Gemini, Claude) into your Dungeon Master — no prior D&amp;D experience needed.
+    </div>
+  </section>
+
+  <section class="wrap">
+    <div class="card" style="text-align:center; background:linear-gradient(135deg, rgba(226,104,60,.18), rgba(138,108,207,.14));">
+      <h2 style="margin-top:0">Prefer a physical board?</h2>
+      <p style="color:var(--ink-soft); max-width:560px; margin:0 auto 22px">3D-print the Martian terrain pieces, paint them, and play around a real table.</p>
+      <a class="btn btn-ghost btn-lg" href="build.html">🖨️ Build the board game →</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap cols">
+    <div><strong>Settlers of Mars</strong> &nbsp;·&nbsp; Space-science through play</div>
+    <div><a href="https://github.com/dr-richard-barker/Settlers_of_Mars_3D_LLM">GitHub</a> &nbsp;·&nbsp; <a href="about.html">Cite &amp; license</a></div>
+  </div>
+</footer>
+<script src="assets/js/site.js"></script>
+</body>
+</html>
