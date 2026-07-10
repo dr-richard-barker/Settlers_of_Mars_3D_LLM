@@ -91,11 +91,11 @@ Settlers_of_Mars_3D_LLM/
 - [x] **Zenodo-ready metadata** — `LICENSE` (CC-BY-4.0), `CITATION.cff`, `.zenodo.json`, `PUBLISHING.md`
 
 ### In progress / to confirm (the actual loose ends)
-- [ ] **Enable Pages** in *Settings → Pages → Source: GitHub Actions* (see [PUBLISHING.md](PUBLISHING.md))
+- [x] **Enable Pages** (done — Source set to GitHub Actions; site live at the URL above)
+- [x] **Verify the embedded game loads** inside `play.html`'s iframe (confirmed working; a fallback "open full-screen" link is provided too)
 - [ ] **Credit the original Insight Wisconsin students** as co-creators in `CITATION.cff` + `.zenodo.json` (check consent for minors)
 - [ ] **Add real ORCID** + confirmed release date in `CITATION.cff`
 - [ ] **Flip on the Zenodo–GitHub integration** and cut a `v1.0.0` release to mint a DOI; add the DOI badge here
-- [ ] **Verify the embedded game loads** inside `play.html`'s iframe (some browsers block cross-origin embeds — a fallback "open full-screen" link is provided)
 - [ ] Confirm the two PDF/PPTX action-plan downloads still resolve (they point at old GitHub `/files/` upload URLs) and re-host in-repo if broken
 
 ### 💡 Ideas (someday / maybe)
