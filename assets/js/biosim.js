@@ -9,20 +9,28 @@
 (function () {
   "use strict";
 
-  // ---- Per-crew metabolic rates (kg / person / day), approx NASA BVAD-scale ----
-  var CREW = { o2: 0.82, co2: 1.00, water: 3.60, food: 0.62 };
-  var O2_PER_CO2 = 32 / 44; // O2 mass recoverable per unit CO2 mass
+  // ---- Per-crew metabolic loads (kg / crew member / day) ----
+  //  Source: NASA BVAD REV2 (NASA/TP-2015-218570/REV2), Table 3-31 "Summary of
+  //  Nominal Human Metabolic Interface Values" + Table 4-51 (food & water).
+  //    O2 consumed 0.895 · CO2 produced 1.085 · potable water 3.217 ·
+  //    dry food solids 0.800 · metabolic water produced 0.345
+  var CREW = { o2: 0.895, co2: 1.085, water: 3.217, food: 0.800, metWater: 0.345 };
+  var O2_PER_CO2 = 32 / 44; // O2 mass per unit CO2 mass (stoichiometric)
 
-  // ---- Crop performance per m² per day (illustrative educational values) ----
-  //  o2   = O2 produced, food = edible dry mass, water = transpiration,
-  //  mass = system mass per m² (structure + lighting), incl. its power draw.
+  // ---- Crop performance per m² per day ----
+  //  Derived from the Wheeler (2008) / SIMOC plant-growth table (BVAD lineage):
+  //    o2   = atmo_O2 (g/hr) × photoperiod ÷ 1000              [kg O2 / m²·day]
+  //    food = edible dry biomass (g) ÷ days-to-harvest ÷ 1000  [kg dry / m²·day]
+  //    water = potable-water draw (g/hr) × photoperiod ÷ 1000  [kg / m²·day, recycled]
+  //    light = electrical lighting energy (kWh / m²·day)  → drives power-system mass
+  //  'mixed' is the mean of the five crops. Note wheat's very high light demand.
   var CROPS = {
-    wheat:   { label: "Wheat (staple)",     o2: 0.025, food: 0.013, water: 2.0, mass: 9 },
-    potato:  { label: "White potato (calorie-dense)", o2: 0.020, food: 0.020, water: 1.6, mass: 8 },
-    soybean: { label: "Soybean (protein/oil)", o2: 0.020, food: 0.010, water: 1.8, mass: 9 },
-    lettuce: { label: "Lettuce (salad)",    o2: 0.015, food: 0.006, water: 1.2, mass: 7 },
-    tomato:  { label: "Tomato (salad/vitamins)", o2: 0.018, food: 0.008, water: 1.5, mass: 8 },
-    mixed:   { label: "Mixed garden (balanced)", o2: 0.021, food: 0.012, water: 1.7, mass: 8 }
+    mixed:   { label: "Mixed garden (balanced)",       o2: 0.0159, food: 0.0128, water: 0.076, light: 5.30, mass: 8 },
+    wheat:   { label: "Wheat (staple)",                o2: 0.0408, food: 0.0200, water: 0.248, light: 17.64, mass: 12 },
+    potato:  { label: "White potato (calorie-dense)",  o2: 0.0177, food: 0.0211, water: 0.041, light: 2.34, mass: 8 },
+    soybean: { label: "Soybean (protein/oil)",         o2: 0.0092, food: 0.0060, water: 0.031, light: 2.34, mass: 8 },
+    lettuce: { label: "Lettuce (salad)",               o2: 0.0048, food: 0.0066, water: 0.004, light: 1.90, mass: 6 },
+    tomato:  { label: "Tomato (salad/vitamins)",       o2: 0.0072, food: 0.0104, water: 0.057, light: 2.26, mass: 8 }
   };
 
   // ---- Fixed mass terms for the ESM (Equivalent System Mass) proxy, kg ----
@@ -30,6 +38,7 @@
   var TANK_FACTOR = 1.2;      // store mass = stored kg × this
   var ARS_BASE = 200, ARS_SPAN = 800;  // air revitalization mass grows with efficiency
   var WRS_BASE = 150, WRS_SPAN = 600;  // water recovery mass grows with efficiency
+  var POWER_KG_PER_KW = 30;  // power-system mass per kW of continuous crop lighting
 
   var STORAGE_KEY = "astrobiosim.runs.v1";
   var MAX_SOLS = 1000; // cap the forward run
@@ -62,9 +71,10 @@
     var foodDemand = CREW.food * N;
     // Water is conserved, not generated: crop transpiration is recycled irrigation
     // (a loop, not a source). Net loss = crew water not recovered by the WRS,
-    // partly offset by water the CRS makes while reclaiming CO₂.
-    var waterSupply = p.arsEff * CREW.co2 * N * 0.30;      // CRS by-product water
-    var waterDemand = CREW.water * N * (1 - p.wrsEff);     // un-recovered crew water
+    // offset by CRS by-product water and recovered metabolic water.
+    var waterSupply = p.arsEff * CREW.co2 * N * 0.30         // CRS by-product water
+                    + CREW.metWater * N * p.wrsEff;          // recovered metabolic water
+    var waterDemand = CREW.water * N * (1 - p.wrsEff);       // un-recovered crew water
 
     var net = {
       o2:   o2Supply - o2Demand,
@@ -100,13 +110,17 @@
 
     var sustainable = net.o2 >= 0 && net.food >= 0 && net.water >= 0;
 
+    // Continuous power drawn by crop lighting (kW) and its power-system mass
+    var lightKW = crop.light * A / 24;
+
     // ESM proxy (kg): lower is better
     var storeKg = store0.o2 + store0.food + store0.water;
     var esm = HAB_MASS_PER_CREW * N
             + crop.mass * A
             + storeKg * TANK_FACTOR
             + (ARS_BASE + ARS_SPAN * p.arsEff)
-            + (WRS_BASE + WRS_SPAN * p.wrsEff);
+            + (WRS_BASE + WRS_SPAN * p.wrsEff)
+            + lightKW * POWER_KG_PER_KW;
 
     // Closure %: share of each resource met by regeneration (crops+recycling)
     var closure = {
@@ -119,7 +133,8 @@
       params: p, crop: crop, net: net, store0: store0, series: series,
       missionSol: missionSol, failResource: failResource,
       sustainable: sustainable, esm: Math.round(esm), closure: closure,
-      areaPerCrew: N ? +(A / N).toFixed(1) : 0
+      areaPerCrew: N ? +(A / N).toFixed(1) : 0,
+      lightKW: +lightKW.toFixed(1)
     };
   }
 
@@ -145,6 +160,7 @@
         stat("Mission length", life) +
         stat("ESM (system mass)", fmt(r.esm) + " kg") +
         stat("Crop area / crew", r.areaPerCrew + " m²") +
+        stat("Lighting power", r.lightKW + " kW") +
       '</div>' +
       '<table class="bal"><thead><tr><th>Resource</th><th>Net / sol (kg)</th><th>Regeneration</th></tr></thead><tbody>' +
         balRow("Oxygen", r.net.o2, r.closure.o2) +

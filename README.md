@@ -103,7 +103,7 @@ Settlers_of_Mars_3D_LLM/
 ### 🔬 BioSim / life-support track
 - [ ] **Run the real model, not just Lite** — server-side BioSim (`biosim_astrobotany` is Java/CORBA) behind an API the site can call, or a WASM/compiled port; persist runs to a shared DB instead of just `localStorage`
 - [ ] **ML habitat optimisation** — genetic algorithm / reinforcement learning over the design space (crew, crop area & mix, recycling efficiency, store sizing) to minimise ESM while staying closed-loop, exactly as the BioSim paper does; seed it from the saved-run dataset
-- [ ] **Tune BioSim Lite's coefficients** against BVAD / published crop gas-exchange data (current values are illustrative, not flight-validated)
+- [x] **Tune BioSim Lite's coefficients** against NASA data — human loads from BVAD REV2 (Tables 3‑31 & 4‑51); crop O₂/biomass/water/light from the Wheeler (2008) / SIMOC plant table; added a lighting-power term to the ESM so the wheat-vs-potato power trade-off shows up
 - [ ] **AIRI-course module** — lesson plan + worksheet: design a habitat, defend the trade-offs, export runs, then race a human design vs. the ML optimiser
 - [ ] **Shared model-comparison gallery** — let learners submit their BioSim runs and leaderboard them by ESM / sustainability
 

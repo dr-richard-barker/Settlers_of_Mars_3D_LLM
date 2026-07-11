@@ -97,8 +97,8 @@
           <input type="range" id="crew" min="1" max="12" step="1" value="4">
         </div>
         <div class="ctrl">
-          <label for="area">Crop growing area <span class="v" id="area-val">200 m²</span></label>
-          <input type="range" id="area" min="0" max="600" step="10" value="200">
+          <label for="area">Crop growing area <span class="v" id="area-val">250 m²</span></label>
+          <input type="range" id="area" min="0" max="600" step="10" value="250">
         </div>
         <div class="ctrl">
           <label for="crop">Crop type</label>
@@ -116,8 +116,8 @@
           <input type="range" id="ars" min="0" max="95" step="5" value="50">
         </div>
         <div class="ctrl">
-          <label for="wrs">Water-recovery efficiency <span class="v" id="wrs-val">85%</span></label>
-          <input type="range" id="wrs" min="0" max="98" step="2" value="85">
+          <label for="wrs">Water-recovery efficiency <span class="v" id="wrs-val">90%</span></label>
+          <input type="range" id="wrs" min="0" max="98" step="2" value="90">
         </div>
         <div class="ctrl">
           <label for="reserve">Store reserve <span class="v" id="reserve-val">30 sols</span></label>
@@ -139,7 +139,7 @@
     </div>
 
     <div class="callout" style="margin-top:20px; font-size:.9rem">
-      ⚠️ <strong>Educational model.</strong> BioSim Lite uses illustrative per-day values to teach the dynamics and trade-offs — it is not flight-validated. For quantitative work use the full <a href="https://biosim.saladproject.org/" target="_blank" rel="noopener">BioSim GUI</a> / <a href="https://github.com/dr-richard-barker/biosim_astrobotany" target="_blank" rel="noopener">source</a>.
+      📐 <strong>Coefficients tuned to NASA data.</strong> Human metabolic loads come from the <a href="https://ntrs.nasa.gov/api/citations/20210024855/downloads/BVAD_2.15.22-final.pdf" target="_blank" rel="noopener">NASA BVAD REV2</a> (O₂ 0.895, CO₂ 1.085, potable water 3.217, dry food 0.800, metabolic water 0.345 kg/crew·day; Tables 3‑31 &amp; 4‑51). Crop O₂, edible biomass, water, and lighting come from the <a href="https://simoc.space/" target="_blank" rel="noopener">Wheeler (2008) / SIMOC</a> plant-growth table (BVAD lineage). It's still a <em>simplified steady-state</em> model — day/night respiration, humidity loops, and off-nominal failures are abstracted away — so use the full <a href="https://biosim.saladproject.org/" target="_blank" rel="noopener">BioSim GUI</a> / <a href="https://github.com/dr-richard-barker/biosim_astrobotany" target="_blank" rel="noopener">source</a> for quantitative work.
     </div>
   </section>
 
