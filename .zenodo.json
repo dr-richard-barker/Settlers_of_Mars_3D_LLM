@@ -20,7 +20,11 @@
     "Mars colonization",
     "prompt engineering",
     "large language models",
-    "astrobotany"
+    "astrobotany",
+    "bioregenerative life support",
+    "BioSim",
+    "habitat design",
+    "equivalent system mass"
   ],
   "related_identifiers": [
     {
@@ -35,6 +39,16 @@
     },
     {
       "identifier": "https://github.com/dr-richard-barker/Lunar-and-Martian-frontier-game-prototype",
+      "relation": "references",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/dr-richard-barker/biosim_astrobotany",
+      "relation": "references",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://biosim.saladproject.org/",
       "relation": "references",
       "scheme": "url"
     }
