@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>BioSim Lab — Settlers of Mars</title>
-<meta name="description" content="Bioregenerative life-support systems, explained — and a browser sandbox to design a closed-loop Martian habitat, run the model, and compare designs.">
+<meta name="description" content="Bioregenerative life-support systems, explained — how a closed-loop Martian habitat recycles air, water, and food. Run the interactive BioSim model in your browser.">
 <link rel="stylesheet" href="assets/css/site.css">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🪐</text></svg>">
 </head>
@@ -28,10 +28,10 @@
   <section class="hero wrap" style="padding-bottom:24px">
     <span class="eyebrow">🌿 Bioregenerative life support</span>
     <h1>Keep a crew alive with a <span class="glow">living habitat</span></h1>
-    <p class="lead">On Mars there's no resupply run. A <strong>Bioregenerative Life-Support System (BLSS)</strong> closes the loop — plants and machines recycle air, water, and food so the colony sustains itself. Learn how it works, then design one and run the model.</p>
+    <p class="lead">On Mars there's no resupply run. A <strong>Bioregenerative Life-Support System (BLSS)</strong> closes the loop — plants and machines recycle air, water, and food so the colony sustains itself. Learn how it works, then run the model.</p>
     <div class="btn-row">
-      <a class="btn btn-primary btn-lg" href="#lab">🧪 Open the sandbox</a>
-      <a class="btn btn-ghost btn-lg" href="#run-full">▶ Run the full model</a>
+      <a class="btn btn-primary btn-lg" href="#run-full">▶ Run the model</a>
+      <a class="btn btn-ghost btn-lg" href="#modules">🔬 See how it works</a>
     </div>
   </section>
 
@@ -48,7 +48,7 @@
   </section>
 
   <!-- The modules -->
-  <section class="wrap">
+  <section class="wrap" id="modules">
     <div class="section-head">
       <span class="kicker">Inside the model</span>
       <h2>The modules that keep the loop closed</h2>
@@ -80,96 +80,18 @@
     </p>
   </section>
 
-  <!-- Sandbox: BioSim Lite -->
-  <section class="wrap" id="lab">
-    <div class="section-head">
-      <span class="kicker">Design your habitat</span>
-      <h2>🧪 AstroBotany BioSim <em>Lite</em> — the sandbox</h2>
-      <p>A simplified in-browser mass-balance model. Tune the habitat, watch the reserves, and hunt for a <strong>closed-loop design with the lowest system mass</strong>. Save each design and compare them.</p>
-    </div>
-
-    <div id="biosim-app" class="biosim">
-      <!-- Controls -->
-      <div class="controls">
-        <h3>Habitat design</h3>
-        <div class="ctrl">
-          <label for="crew">Crew size <span class="v" id="crew-val">4</span></label>
-          <input type="range" id="crew" min="1" max="12" step="1" value="4">
-        </div>
-        <div class="ctrl">
-          <label for="area">Crop growing area <span class="v" id="area-val">250 m²</span></label>
-          <input type="range" id="area" min="0" max="600" step="10" value="250">
-        </div>
-        <div class="ctrl">
-          <label for="crop">Crop type</label>
-          <select id="crop">
-            <option value="mixed">Mixed garden (balanced)</option>
-            <option value="wheat">Wheat (staple)</option>
-            <option value="potato">White potato (calorie-dense)</option>
-            <option value="soybean">Soybean (protein/oil)</option>
-            <option value="lettuce">Lettuce (salad)</option>
-            <option value="tomato">Tomato (salad/vitamins)</option>
-          </select>
-        </div>
-        <div class="ctrl">
-          <label for="ars">Air-recycling efficiency <span class="v" id="ars-val">50%</span></label>
-          <input type="range" id="ars" min="0" max="95" step="5" value="50">
-        </div>
-        <div class="ctrl">
-          <label for="wrs">Water-recovery efficiency <span class="v" id="wrs-val">90%</span></label>
-          <input type="range" id="wrs" min="0" max="98" step="2" value="90">
-        </div>
-        <div class="ctrl">
-          <label for="reserve">Store reserve <span class="v" id="reserve-val">30 sols</span></label>
-          <input type="range" id="reserve" min="0" max="180" step="5" value="30">
-        </div>
-        <div class="ctrl">
-          <label for="runname">Name this design</label>
-          <input type="text" id="runname" placeholder="e.g. Compact potato base">
-        </div>
-        <button class="btn btn-primary btn-mini" id="save-run" style="width:100%">💾 Save run to compare</button>
-      </div>
-
-      <!-- Readout -->
-      <div class="readout">
-        <div id="results"><!-- filled by JS --></div>
-        <canvas id="chart" width="640" height="260"></canvas>
-        <p class="muted" style="font-size:.82rem; margin:12px 0 0">Lines show O₂ (teal), water (blue), and food (gold) reserves over time. A design is <strong>closed-loop</strong> when every net balance is ≥ 0 — reserves stop falling and the mission length is indefinite.</p>
-      </div>
-    </div>
-
-    <div class="callout" style="margin-top:20px; font-size:.9rem">
-      📐 <strong>Coefficients tuned to NASA data.</strong> Human metabolic loads come from the <a href="https://ntrs.nasa.gov/api/citations/20210024855/downloads/BVAD_2.15.22-final.pdf" target="_blank" rel="noopener">NASA BVAD REV2</a> (O₂ 0.895, CO₂ 1.085, potable water 3.217, dry food 0.800, metabolic water 0.345 kg/crew·day; Tables 3‑31 &amp; 4‑51). Crop O₂, edible biomass, water, and lighting come from the <a href="https://simoc.space/" target="_blank" rel="noopener">Wheeler (2008) / SIMOC</a> plant-growth table (BVAD lineage). It's still a <em>simplified steady-state</em> model — day/night respiration, humidity loops, and off-nominal failures are abstracted away — so use the full <a href="https://biosim.saladproject.org/" target="_blank" rel="noopener">BioSim GUI</a> / <a href="https://github.com/dr-richard-barker/biosim_astrobotany" target="_blank" rel="noopener">source</a> for quantitative work.
-    </div>
-  </section>
-
-  <!-- Compare / save -->
-  <section class="wrap">
-    <div class="section-head">
-      <span class="kicker">Compare models</span>
-      <h2>📊 Saved designs</h2>
-      <p>Every saved run is stored in your browser. Compare their mass and sustainability, then export the dataset.</p>
-    </div>
-    <div id="saved"><!-- filled by JS --></div>
-    <div class="btn-row" style="justify-content:flex-start; margin-top:18px">
-      <button class="btn btn-ghost btn-mini" id="export-csv">⬇ Export CSV</button>
-      <button class="btn btn-ghost btn-mini" id="export-json">⬇ Export JSON</button>
-      <button class="btn btn-ghost btn-mini" id="clear-runs">🗑 Clear all</button>
-    </div>
-  </section>
-
   <!-- Where this is going -->
   <section class="wrap prose">
     <div class="section-head">
-      <span class="kicker">Where this is going</span>
-      <h2>From sandbox to research tool</h2>
+      <span class="kicker">Go deeper</span>
+      <h2>Design habitats &amp; optimise them — in the AIRI course</h2>
     </div>
-    <h3>🤖 Machine-learning habitat optimisation</h3>
-    <p>Every saved run is a labelled data point: a habitat configuration and its outcome (sustainable? mission length? system mass?). That's exactly the setup the BioSim paper uses <strong>genetic algorithms</strong> and <strong>reinforcement learning</strong> for — searching a huge design space to minimise <em>Equivalent System Mass (ESM)</em> while keeping the crew alive. The roadmap: let an optimiser propose habitat designs — scale, crop area, and the crop/life-content ratio — and learn which trade-offs win.</p>
-    <h3>🎓 In the classroom (AIRI course)</h3>
-    <p>BioSim Lab is designed to slot into the AIRI course as a hands-on module: students design a habitat, defend their trade-offs, export their runs, and then pit a machine-learning optimiser against their best human design.</p>
+    <h3>🎓 Hands-on habitat design (AIRI course)</h3>
+    <p>Want to design your own closed-loop habitat and put numbers on the trade-offs? That's a module in the <strong><a href="https://github.com/dr-richard-barker/AIRI" target="_blank" rel="noopener">AIRI course</a></strong> — an interactive sandbox (tuned to NASA <a href="https://ntrs.nasa.gov/api/citations/20210024855/downloads/BVAD_2.15.22-final.pdf" target="_blank" rel="noopener">BVAD</a> and Wheeler/SIMOC crop data) where you size crew, crop area, crop mix, and recycling efficiency, then watch the reserves and the <em>Equivalent System Mass (ESM)</em>.</p>
+    <h3>🤖 Machine-learning optimisation</h3>
+    <p>Each habitat design is a labelled data point — configuration in, outcome (sustainable? mission length? system mass?) out. That's exactly the setup the BioSim paper uses <strong>genetic algorithms</strong> and <strong>reinforcement learning</strong> for: searching a huge design space to minimise ESM while keeping the crew alive. In AIRI, students pit a machine-learning optimiser against their best human design.</p>
     <h3>🎲 In the game</h3>
-    <p>As a new station on the <em>Settlers of Mars</em> board, BioSim Lab turns the "Living on Mars" turn into a real engineering decision — the Farmer &amp; Scientist sizes the farm here, and the whole crew lives or dies by the result.</p>
+    <p>On the <em>Settlers of Mars</em> board, BLSS is the science under the "Living on Mars" turn — the <a href="roleplay.html">Farmer &amp; Scientist</a> sizes the farm and life support, and the whole crew lives or dies by the result.</p>
 
     <div class="callout">
       <strong>Credits &amp; sources.</strong> Built on <a href="https://github.com/scottbell/biosim" target="_blank" rel="noopener">BioSim</a> by David Kortenkamp &amp; Scott Bell (TRACLabs / NASA); interactive GUI by the <a href="https://biosim.saladproject.org/" target="_blank" rel="noopener">SALAD project</a>; astrobotany extensions in our <a href="https://github.com/dr-richard-barker/biosim_astrobotany" target="_blank" rel="noopener">BioSim Astrobotany</a> branch. Foundational reference: Kortenkamp &amp; Bell, <em>"BioSim: Simulating Space Habitats for Artificial Intelligence Research."</em>
@@ -178,7 +100,7 @@
 
   <section class="wrap">
     <div class="card" style="text-align:center; background:linear-gradient(135deg, rgba(55,199,184,.16), rgba(138,108,207,.14));">
-      <h2 style="margin-top:0">Designed a habitat? Now settle Mars.</h2>
+      <h2 style="margin-top:0">Learned how the loop closes? Now settle Mars.</h2>
       <div class="btn-row">
         <a class="btn btn-primary btn-lg" href="play.html">▶ Play the game</a>
         <a class="btn btn-ghost btn-lg" href="roleplay.html">🧙 Run an AI role-play</a>
@@ -194,6 +116,5 @@
   </div>
 </footer>
 <script src="assets/js/site.js"></script>
-<script src="assets/js/biosim.js"></script>
 </body>
 </html>

@@ -38,7 +38,7 @@ Plain static HTML at the repo root — no build step. Deployed automatically by
 | [`play.html`](play.html) | Embeds the live browser game + intro to the tabletop role-play |
 | [`roleplay.html`](roleplay.html) | Character roles + copy-paste AI Dungeon-Master prompts (Levels 1–5) |
 | [`build.html`](build.html) | STL downloads, 3D-printing steps, AI board-art generation, layout gallery |
-| [`biosim.html`](biosim.html) | **BioSim Lab** — intro to bioregenerative life support + an in-browser habitat simulator (run, save, compare) + the live BioSim GUI |
+| [`biosim.html`](biosim.html) | **BioSim Lab** — intro to bioregenerative life support (BLSS) + the module model + the live BioSim GUI (embedded) |
 | [`about.html`](about.html) | Story, credits, license, how to cite, roadmap |
 
 ## Repo map
@@ -90,7 +90,7 @@ Settlers_of_Mars_3D_LLM/
 - [x] Example board layouts + DALL·E board-art prompt-engineering examples
 - [x] **GitHub Pages website** (this hub: play / role-play / build / biosim / about)
 - [x] **Zenodo-ready metadata** — `LICENSE` (CC-BY-4.0), `CITATION.cff`, `.zenodo.json`, `PUBLISHING.md`
-- [x] **BioSim Lab page** — intro to bioregenerative life support (BLSS) grounded in the Kortenkamp & Bell BioSim paper; embeds the [SALAD-project BioSim GUI](https://biosim.saladproject.org/); in-browser "AstroBotany BioSim Lite" mass-balance sandbox with save-to-browser + CSV/JSON export to compare designs by mission length & ESM
+- [x] **BioSim Lab page** — intro to bioregenerative life support (BLSS) grounded in the Kortenkamp & Bell BioSim paper; explains the module model; embeds the live [SALAD-project BioSim GUI](https://biosim.saladproject.org/) and links our [BioSim Astrobotany](https://github.com/dr-richard-barker/biosim_astrobotany) branch. (The interactive habitat-design sandbox now lives in the [AIRI course](https://github.com/dr-richard-barker/AIRI), not on this site.)
 
 ### In progress / to confirm (the actual loose ends)
 - [x] **Enable Pages** (done — Source set to GitHub Actions; site live at the URL above)
@@ -101,11 +101,11 @@ Settlers_of_Mars_3D_LLM/
 - [ ] Confirm the two PDF/PPTX action-plan downloads still resolve (they point at old GitHub `/files/` upload URLs) and re-host in-repo if broken
 
 ### 🔬 BioSim / life-support track
-- [ ] **Run the real model, not just Lite** — server-side BioSim (`biosim_astrobotany` is Java/CORBA) behind an API the site can call, or a WASM/compiled port; persist runs to a shared DB instead of just `localStorage`
-- [ ] **ML habitat optimisation** — genetic algorithm / reinforcement learning over the design space (crew, crop area & mix, recycling efficiency, store sizing) to minimise ESM while staying closed-loop, exactly as the BioSim paper does; seed it from the saved-run dataset
-- [x] **Tune BioSim Lite's coefficients** against NASA data — human loads from BVAD REV2 (Tables 3‑31 & 4‑51); crop O₂/biomass/water/light from the Wheeler (2008) / SIMOC plant table; added a lighting-power term to the ESM so the wheat-vs-potato power trade-off shows up
-- [ ] **AIRI-course module** — lesson plan + worksheet: design a habitat, defend the trade-offs, export runs, then race a human design vs. the ML optimiser
-- [ ] **Shared model-comparison gallery** — let learners submit their BioSim runs and leaderboard them by ESM / sustainability
+> The interactive habitat-design sandbox ("AstroBotany BioSim Lite") was moved **off this site** — it belongs in the [AIRI course](https://github.com/dr-richard-barker/AIRI). This site keeps the BLSS explainer + the embedded full BioSim GUI. The tuned Lite simulator is preserved in this repo's git history (commit `d04a0b8`, `assets/js/biosim.js`) ready to port into AIRI.
+- [ ] **Port BioSim Lite into the AIRI course** — the BVAD/Wheeler-tuned mass-balance sandbox (crew, crop area & mix, recycling efficiency, store sizing → reserves + ESM + lighting power), with save/compare/export
+- [ ] **Run the real model** — server-side BioSim (`biosim_astrobotany` is Java/CORBA) behind an API, or a WASM/compiled port; persist runs to a shared DB
+- [ ] **ML habitat optimisation** (in AIRI) — genetic algorithm / reinforcement learning over the design space to minimise ESM while staying closed-loop, exactly as the BioSim paper does; seed it from the sandbox's run dataset
+- [ ] **Shared model-comparison gallery** — let learners submit BioSim runs and leaderboard them by ESM / sustainability
 
 ### 💡 Ideas (someday / maybe)
 - [ ] Printable **rulebook PDF** + a one-page quick-start

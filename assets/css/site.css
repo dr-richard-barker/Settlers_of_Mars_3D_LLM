@@ -194,38 +194,6 @@ th { color: var(--gold); font-size:.82rem; letter-spacing:1px; text-transform:up
 .prose ul { color: var(--ink-soft); }
 .prose li { margin: 6px 0; }
 
-/* ---------- BioSim Lab simulator ---------- */
-.biosim { display:grid; grid-template-columns: 340px 1fr; gap: 24px; align-items:start; }
-.controls { background: var(--panel); border:1px solid var(--line); border-radius: var(--radius); padding: 20px; }
-.controls h3 { margin:0 0 14px; }
-.ctrl { margin: 0 0 16px; }
-.ctrl label { display:flex; justify-content:space-between; font-size:.9rem; font-weight:600; margin-bottom:6px; color: var(--ink-soft); }
-.ctrl label .v { color: var(--rust-2); font-variant-numeric: tabular-nums; }
-.ctrl input[type=range] { width:100%; accent-color: var(--rust); }
-.ctrl select, .ctrl input[type=text] {
-  width:100%; background: var(--bg-2); border:1px solid var(--line); color: var(--ink);
-  border-radius: 9px; padding: 9px 11px; font-size:.95rem;
-}
-.readout { background: linear-gradient(180deg, var(--panel), var(--bg-2)); border:1px solid var(--line); border-radius: var(--radius); padding: 22px; }
-.verdict { margin-bottom: 16px; }
-.stat-row { display:flex; gap: 14px; flex-wrap:wrap; margin-bottom: 18px; }
-.stat { flex:1 1 120px; background: var(--panel); border:1px solid var(--line); border-radius: 12px; padding: 14px; text-align:center; }
-.stat-v { display:block; font-size:1.5rem; font-weight:800; color: var(--ink); }
-.stat-l { display:block; font-size:.76rem; color: var(--ink-faint); text-transform:uppercase; letter-spacing:1px; margin-top:4px; }
-table.bal { width:100%; border-collapse:collapse; font-size:.92rem; }
-table.bal th { color: var(--gold); font-size:.74rem; }
-table.bal td.ok { color: var(--teal); font-weight:700; font-variant-numeric: tabular-nums; }
-table.bal td.bad { color: var(--rust-2); font-weight:700; font-variant-numeric: tabular-nums; }
-#chart, canvas.cmp { width:100%; max-width:100%; height:auto; margin-top: 16px; background:#100e1c; border:1px solid var(--line); border-radius: 12px; }
-.btn-mini { padding: 9px 16px; font-size:.9rem; border-radius:10px; }
-.saved-table th { white-space:nowrap; }
-.mini-x { background:transparent; border:1px solid var(--line); color:var(--ink-faint); border-radius:6px; cursor:pointer; padding:2px 7px; }
-.mini-x:hover { border-color: var(--rust); color: var(--rust-2); }
-.muted { color: var(--ink-faint); }
-canvas.cmp { height: 220px; }
-
-@media (max-width: 820px) { .biosim { grid-template-columns: 1fr; } }
-
 /* ---------- Footer ---------- */
 .site-footer { border-top: 1px solid var(--line); margin-top: 40px; padding: 34px 0; color: var(--ink-faint); font-size:.9rem; }
 .site-footer a { color: var(--ink-soft); }
